@@ -6,6 +6,8 @@ This interactive site is where I would be advertising some of the most beautiful
 
 This site would be utilising JavaScript from the Code Institute as well as using Google Places API. I will be using various technologies such as HTML5, CSS3, JavaScript, JQuery, Bootstrap, APIs (Google Places).  This project will be responsive and accessible to different size browsers and devices.
 
+<h2 align="center"><img src="#"></h2>
+
 ## User Experience (UX)
 
 ### The Audience
@@ -20,21 +22,42 @@ When the country is selected and scrolled down, the information would be pulled 
 
 ### My Objectives
 
-### User Stories
+My objectives are going to be achieved by taking images from free stock websites which would have images of the countries that I want to advertise. The information of which would be used will be taken from other websites and from my personal experience when I have visited them. A drop-down menu would be on the countries page where they would be able to select which country they would like to see as the information would be pulled from a JSON file. Incorporating Google Places API will help users to plan their holidays if they choose to visit these countries. The users would also be able to contact the site admin if they have any queries or questions on planned itineraries as the site admin has the first-hand experience when visited those places as it would have a contact form which would be linked to a live email address.
 
-### Design
+I would be using the theme of sand as the Middle East is known for the sandy desert. The pictures used on the site would be the main representative of achieving the goal of advertising the countries. Within the footer, there would be social media links which would connect the user to the advertising agency social media links (this would be linked to just the home pages of the social media sites).
+
+## User Stories
+
+## Design
 
 ## Features
 
 ### Existing Features
 
+
+
 ### Features Left to Implement
+
+
 
 ## Technologies Used
 
 ###  Programming Languages Used
 
+
+
 ### Frameworks, Libraries & Programs Used
+
+1. [Brackets:](http://brackets.io/)
+    - Brackets was used as my text editor to develop the site and with the Plugins available to Push to GitHub.
+1. [Grammerly:](https://app.grammarly.com/)
+    - Online tool which assists with the english grammar.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the code of the project after being pushed from GitHub Desktop and Brackets
+1. [GitHub Desktop:](https://desktop.github.com/)
+    - A tool that allows you to interact with GitHub from the desktop
+1. [Google Chrome:](https://www.google.co.uk/intl/en_uk/chrome/)
+    - Default browser used to visually display the build process as well as utilising Chrome Dev Tools to assist where needed.
 
 ## Testing
 
