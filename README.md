@@ -14,6 +14,10 @@ The purpose of this site is to advertise the different countries within the Midd
 
 ### User Objectives
 
+The website will advertise the following countries within the Middle East (Lebanon, UAE, Eygpt, Turkey and Jordan) for users who would like to visit or plan a visit to the selected countries. It will have a carousel of images within the home page which would rotate the images in sequence. Within the homepage, it will also have 9 cardholders which flip when the user hovers over them which would then have a small description of the picture. When the user visits the country page, they would be introduced with the country and the three top places to visit and type of cuisine to try.
+
+When the country is selected and scrolled down, the information would be pulled from a JSON file to keep the information easy to update and dynamic. A Google Place API would be added to each of the specific countries webpage with the fixed coordinates of the capital of those selected countries where it would display the different attractions, restaurants and other google registered places. It will also enable the user to fill out a form which would then be sent to the site admin registered email address.
+
 ### My Objectives
 
 ### User Stories
