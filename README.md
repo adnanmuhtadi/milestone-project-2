@@ -10,6 +10,8 @@ This site would be utilising JavaScript from the Code Institute as well as using
 
 ### The Audience
 
+The purpose of this site is to advertise the different countries within the Middle East (Lebanon, UAE, Eygpt, Turkey and Jordan) and there top places to visit and dine. The intended audience would be for users who would be interested in visiting these countries and plan an itinerary within the selected countries capital.
+
 ### User Objectives
 
 ### My Objectives
