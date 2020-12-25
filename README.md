@@ -2,6 +2,10 @@
 
 [View project here](#)
 
+This interactive site is where I would be advertising some of the most beautiful countries within the Middle East (Lebanon, UAE, Eygpt, Turkey and Jordan). It will advertise the different attractions and restaurants and other places within the capital of the specific country. It will also advertise the top three places to visit and the three top cuisines known in that country. It will include a method for the user to reach out to the site admin if they would like to know more about a specific country.
+
+This site would be utilising JavaScript from the Code Institute as well as using Google Places API. I will be using various technologies such as HTML5, CSS3, JavaScript, JQuery, Bootstrap, APIs (Google Places).  This project will be responsive and accessible to different size browsers and devices.
+
 ## User Experience (UX)
 
 ### The Audience
