@@ -53,7 +53,7 @@ The intended type of users which this site would be targeted for are individuals
 *   ### Wireframes
 
     #### Home Page
-    - Home Page Wireframe (Web Browser) - [View](#)
+    - Home Page Wireframe (Web Browser) - [View](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/home-page-wireframe-web-browser.pdf)
 
 ## Features
 
