@@ -24,11 +24,24 @@ When the country is selected and scrolled down, the information would be pulled 
 
 My objectives are going to be achieved by taking images from free stock websites which would have images of the countries that I want to advertise. The information of which would be used will be taken from other websites and from my personal experience when I have visited them. A drop-down menu would be on the countries page where they would be able to select which country they would like to see as the information would be pulled from a JSON file. Incorporating Google Places API will help users to plan their holidays if they choose to visit these countries. The users would also be able to contact the site admin if they have any queries or questions on planned itineraries as the site admin has the first-hand experience when visited those places as it would have a contact form which would be linked to a live email address.
 
-I would be using the theme of sand as the Middle East is known for the sandy desert. The pictures used on the site would be the main representative of achieving the goal of advertising the countries. Within the footer, there would be social media links which would connect the user to the advertising agency social media links (this would be linked to just the home pages of the social media sites).
+I would be using the theme of "Sandy Yellow colour" as the Middle East is known for the sandy desert. The pictures used on the site would be the main representative of achieving the goal of advertising the countries. Within the footer, there would be social media links which would connect the user to the advertising agency social media links (this would be linked to just the home pages of the social media sites).
 
 ## User Stories
 
+The intended type of users which this site would be targeted for are individuals, couples and/or families who are looking to plan a holiday to the Middle East.
+
+1. As a user, I want to be able to see images of the places in the middle east so I can see the beauty of the countries.
+2. As a user, I want to know more about a picture when hovering over it so I know more about what I am looking at.
+3. As a user, I want to be able to select a country from a drop-down so I can see what other countries I can see more information about.
+4. As a user, I want to see different attractions in the capital of the chosen country so I can see the options to choose from.
+5. As a user, I want to click on an option that is presented to me within the Google Places API and have it appear on the marker within the map.
+6. As a user, I want to be able to select a different country and have the information change so I can see the new information without being transferred to another page.
+7. As a user, I want to be able to contact the site admin so I can ask questions that I would need further assistance on.
+8. As a user, I want to be able to click on the social media links to lead me to the "Advertising Agency" so I can follow their advertisement.
+
 ## Design
+
+
 
 ## Features
 
