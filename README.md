@@ -41,7 +41,19 @@ The intended type of users which this site would be targeted for are individuals
 
 ## Design
 
+-   #### Colour Scheme
+    -   ...
 
+-   #### Typography
+    -   ...
+
+-   #### Imagery
+    -   ...
+
+*   ### Wireframes
+
+    #### Home Page
+    - Home Page Wireframe (Web Browser) - [View](#)
 
 ## Features
 
