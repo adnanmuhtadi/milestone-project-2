@@ -67,6 +67,7 @@ The intended type of users which this site would be targeted for are individuals
     - Contact Us Wireframe (Tablet) - [View PDF](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/contact-wireframe-tablet.pdf)
     - Contact Us Wireframe (Mobile) - [View PDF](#)
 
+    #### Master Wireframe
     - Master Wireframe - [View](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/explore-the-middle-east.bmpr)
 
 ## Features
