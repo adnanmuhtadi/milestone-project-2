@@ -55,17 +55,17 @@ The intended type of users which this site would be targeted for are individuals
     #### Home Page
     - Home Page Wireframe (Web Browser) - [View PDF](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/home-page-wireframe-web-browser.pdf)
     - Home Page Wireframe (Tablet) - [View PDF](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/home-page-wireframe-tablet.pdf)
-    - Home Page Wireframe (Mobile) - [View PDF](#)
+    - Home Page Wireframe (Mobile) - [View PDF](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/home-page-wireframe-mobile.pdf)
 
     #### Country
     - Country Wireframe (Web Browser) - [View PDF](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/country-wireframe-web-browser.pdf)
     - Country Wireframe (Tablet) - [View PDF](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/country-wireframe-tablet.pdf)
-    - Country Wireframe (Mobile) - [View PDF](#)
+    - Country Wireframe (Mobile) - [View PDF](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/country-wireframe-mobile.pdf)
 
     #### Contact Us
     - Contact Us Wireframe (Web Browser) - [View PDF](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/contact-wireframe-web-browser.pdf)
     - Contact Us Wireframe (Tablet) - [View PDF](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/contact-wireframe-tablet.pdf)
-    - Contact Us Wireframe (Mobile) - [View PDF](#)
+    - Contact Us Wireframe (Mobile) - [View PDF](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/contact-wireframe-mobile.pdf)
 
     #### Master Wireframe
     - Master Wireframe - [View](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/explore-the-middle-east.bmpr)
