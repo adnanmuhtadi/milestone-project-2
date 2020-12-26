@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*------------------------------ Navigation Section*/
+nav{
+    background-color: #f4a460;
+    position: relative;
+}
+
+.navbar a {
+    color: #000000;
+}
+
+.navbar-main a {
+    margin-left: 50px;
+}
