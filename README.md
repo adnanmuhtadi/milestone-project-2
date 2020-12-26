@@ -74,11 +74,41 @@ The intended type of users which this site would be targeted for are individuals
 
 ### Existing Features
 
+#### Site Features
 
+- ...
+
+#### Navigation Bar
+
+- ...
+
+#### Footer
+
+- ...
+
+#### Carousel
+
+- ...
+
+#### Home Page
+
+- ...
+
+#### Country Page
+
+- ...
+
+#### Google Places API
+
+- ...
+
+#### Contact Us Page
+
+- ...
 
 ### Features Left to Implement
 
-
+- ...
 
 ## Technologies Used
 
