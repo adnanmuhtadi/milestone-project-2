@@ -1,4 +1,4 @@
-<h1 align="center">Milestone Project 2 - Explore The Middle East Test Test</h1>
+<h1 align="center">Milestone Project 2 - Explore The Middle East</h1>
 
 [View project here](#)
 
