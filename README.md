@@ -1,4 +1,4 @@
-<h1 align="center">Milestone Project 2 - Explore The Middle East </h1>
+<h1 align="center">Milestone Project 2 - Explore The Middle East Test Test</h1>
 
 [View project here](#)
 
@@ -42,13 +42,13 @@ The intended type of users which this site would be targeted for are individuals
 ## Design
 
 -   #### Colour Scheme
-    -   ...
+    -   I kept the colour scheme sandy yellow to advertise the desert of the middle east with the black writing to keep the text easy to read (Used  [WebAIM](https://webaim.org/resources/contrastchecker/) to check the contrast of the colour scheme).
 
 -   #### Typography
     -   ...
 
 -   #### Imagery
-    -   ...
+    -   The images that were used are based on the content of what it is portraying. Displaying the places to visit and cuisines to eat around the countries I am focusing on.
 
 *   ### Wireframes
 
@@ -114,10 +114,32 @@ The intended type of users which this site would be targeted for are individuals
 
 ###  Programming Languages Used
 
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    - HTML5 was used to structure and present content on my website.
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    - CSS3 was used to provide my website with style
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+    - JavaScript was used to make the site interactive
 
+### APIs, Frameworks, Libraries & Programs Used
 
-### Frameworks, Libraries & Programs Used
+#### APIs
+1.  [Google Places:](https://developers.google.com/places/web-service/overview)
+    - Google Places API was used to find the places of interests for the countries I have chosen
 
+#### Frameworks
+1. [Bootstrap 4.5.3:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+
+#### Library
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1.  [JQuery:](https://jquery.com/)
+    - JQuery was used to manuipluate the API calling from my JSON file as well as the Google Places API
+
+#### Programs Used
 1. [Brackets:](http://brackets.io/)
     - Brackets was used as my text editor to develop the site and with the Plugins available to Push to GitHub.
 1. [Grammerly:](https://app.grammarly.com/)
@@ -130,6 +152,8 @@ The intended type of users which this site would be targeted for are individuals
     - Default browser used to visually display the build process as well as utilising Chrome Dev Tools to assist where needed.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/adnanmuhtadi/milestone-project-2/tree/main/documentation/wireframes) during the design process.
+1. [Webaim](https://webaim.org/resources/contrastchecker/)
+    - To check the contrast of my background colour and text that would be used on my site.
 
 ## Testing
 
