@@ -98,6 +98,8 @@ The intended type of users which this site would be targeted for are individuals
     - A tool that allows you to interact with GitHub from the desktop
 1. [Google Chrome:](https://www.google.co.uk/intl/en_uk/chrome/)
     - Default browser used to visually display the build process as well as utilising Chrome Dev Tools to assist where needed.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/adnanmuhtadi/milestone-project-2/tree/main/documentation/wireframes) during the design process.
 
 ## Testing
 
