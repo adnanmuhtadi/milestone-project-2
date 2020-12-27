@@ -137,13 +137,13 @@ The intended type of users which this site would be targeted for are individuals
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1.  [JQuery:](https://jquery.com/)
-    - JQuery was used to manuipluate the API calling from my JSON file as well as the Google Places API
+    - JQuery was used to manipulate the API calling from my JSON file as well as the Google Places API
 
 #### Programs Used
 1. [Brackets:](http://brackets.io/)
     - Brackets was used as my text editor to develop the site and with the Plugins available to Push to GitHub.
 1. [Grammerly:](https://app.grammarly.com/)
-    - Online tool which assists with the english grammar.
+    - Online tool which assists with the English grammar.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the code of the project after being pushed from GitHub Desktop and Brackets
 1. [GitHub Desktop:](https://desktop.github.com/)
@@ -181,6 +181,20 @@ The intended type of users which this site would be targeted for are individuals
 
 ### Code
 
+Utilising the code that was used taught from the Code Instute Lessons consisted of (HTML5, CCS3 and JavaScript), i also utilised other sources which assisted me in the developing the specific areas.
+
+- [Carousel](https://getbootstrap.com/docs/4.5/components/carousel/#carouseldispose)
+    - Which was used for the homepage and the country page within the header of the site.
+
 ### Media
+
+The main souce i used for the images if from [Pixabay](https://pixabay.com/):
+
+- Home Page - Carousel
+    - [Lebanon - Beirut](https://pixabay.com/photos/beirut-raouch%C3%A9-lebanon-sea-5172850/)
+    - [Jorand - Amman](https://pixabay.com/photos/archaeological-city-petra-jordan-2595597/)
+    - [UAE - Dubai](https://pixabay.com/photos/burj-al-arab-dubai-sunset-emirates-5809639/)
+    - [Turkey - Istanbul](https://pixabay.com/photos/istanbul-cami-turkey-travel-sunset-2430072/)
+    - [Egypt - Cairo](https://pixabay.com/photos/landscape-pyramids-desert-sand-5584652/)
 
 ### Acknowledgements
