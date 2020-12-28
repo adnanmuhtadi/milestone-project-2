@@ -179,12 +179,16 @@ The intended type of users which this site would be targeted for are individuals
 
 ### Content
 
+The content which I used to take the information for the Cards within the Homepage is [Wikipedia](https://en.wikipedia.org/wiki/Main_Page).
+
 ### Code
 
 Utilising the code that was used taught from the Code Instute Lessons consisted of (HTML5, CCS3 and JavaScript), i also utilised other sources which assisted me in the developing the specific areas.
 
 - [Carousel](https://getbootstrap.com/docs/4.5/components/carousel/#carouseldispose)
     - Which was used for the homepage and the country page within the header of the site.
+- [Card Flip](https://www.w3schools.com/howto/howto_css_flip_card.asp)
+    - Utilising the flip of cards to advertise the picture with a description when being hovered. A button within the description to take them to the [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) page.
 
 ### Media
 
@@ -196,5 +200,12 @@ The main souce i used for the images if from [Pixabay](https://pixabay.com/):
     - [UAE - Dubai](https://pixabay.com/photos/burj-al-arab-dubai-sunset-emirates-5809639/)
     - [Turkey - Istanbul](https://pixabay.com/photos/istanbul-cami-turkey-travel-sunset-2430072/)
     - [Egypt - Cairo](https://pixabay.com/photos/landscape-pyramids-desert-sand-5584652/)
+- Home Page - Card Flip Images
+    - [Dubai - Burj Khalifa](https://pixabay.com/photos/dubai-tower-arab-khalifa-burj-1420494/)
+    - [Turkey - Taksim Square](https://pixabay.com/photos/tram-taksim-square-city-taksim-3420867/)
+    - [Egypt - Sphinx of Giza](https://pixabay.com/photos/sphinx-egypt-ancient-egyptian-2499773/)
+    - [Lebanon - Lady of Lebanon](https://pixabay.com/photos/madonna-christen-holy-mother-of-god-1745288/)
+    - [Jordan - Dead Sea](https://pixabay.com/photos/dead-sea-swim-mud-pack-summer-1259507/)
+    - [Dubai - The Palm Dubai](https://pixabay.com/photos/atlantis-the-palm-dubai-atlantis-5509820/)
 
 ### Acknowledgements
