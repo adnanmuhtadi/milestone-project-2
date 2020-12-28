@@ -64,7 +64,12 @@ nav{
 
 /* The display for the back of the card */
 .flip-back {
-    background-color: white;
+    background-color: #f8c8a0;
     color: black;
     transform: rotateY(180deg);
+}
+
+.btn-card, .btn-card a {
+    padding: 0 5px;
+    color: black;
 }
