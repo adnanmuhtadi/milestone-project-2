@@ -1,6 +1,6 @@
 <h1 align="center">Milestone Project 2 - Explore The Middle East</h1>
 
-[View project here](#)
+[View project here](https://adnanmuhtadi.github.io/milestone-project-2/)
 
 This interactive site is where I would be advertising some of the most beautiful countries within the Middle East (Lebanon, UAE, Eygpt, Turkey and Jordan). It will advertise the different attractions and restaurants and other places within the capital of the specific country. It will also advertise the top three places to visit and the three top cuisines known in that country. It will include a method for the user to reach out to the site admin if they would like to know more about a specific country.
 
