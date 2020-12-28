@@ -22,69 +22,98 @@
         </div>
     </nav>
 
-    <!-- Assested with the bootstrap code for the 'carousel-fade' class from https://getbootstrap.com/docs/4.5/components/carousel/#crossfade -->
-    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <!--image taken from https://pixabay.com/photos/beirut-raouch%C3%A9-lebanon-sea-5172850/ -->
-                <img src="assets/img/beirut-hp.jpg" class="d-block w100" alt="Beirut">
-                <div class="carousel-caption">
-                    <h3>Lebanon</h3>
-                    <p>Beirut</p>
+    <!-- Assisted  with the bootstrap code for the 'carousel-fade' class from
+    https://getbootstrap.com/docs/4.5/components/carousel/#crossfade
+    Making sure the width of each image would be stretched the width of the page as in the CSS,
+    it would only take 95% of vertical height due to the navigation bar taking 5% of it.-->
+    <header>
+        <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+           <!-- Indicators under each caption -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <!--image taken from https://pixabay.com/photos/beirut-raouch%C3%A9-lebanon-sea-5172850/ -->
+                    <img src="assets/img/beirut-hp.jpg" class="d-block w100" alt="Beirut">
+                    <div class="carousel-caption">
+                        <h3>Lebanon</h3>
+                        <p>Beirut</p>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <!--image taken from https://pixabay.com/photos/archaeological-city-petra-jordan-2595597/ -->
-                <img src="assets/img/jordan-hp.jpg" class="d-block w100" alt="Amman">
-                <div class="carousel-caption">
-                    <h3>Jordan</h3>
-                    <p>Amman</p>
+                <div class="carousel-item">
+                    <!--image taken from https://pixabay.com/photos/archaeological-city-petra-jordan-2595597/ -->
+                    <img src="assets/img/jordan-hp.jpg" class="d-block w100" alt="Amman">
+                    <div class="carousel-caption">
+                        <h3>Jordan</h3>
+                        <p>Amman</p>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <!--image taken from https://pixabay.com/photos/burj-al-arab-dubai-sunset-emirates-5809639/ -->
-                <img src="assets/img/uae-hp.jpg" class="d-block w100" alt="Dubai">
-                <div class="carousel-caption">
-                    <h3>UAE</h3>
-                    <p>Dubai</p>
+                <div class="carousel-item">
+                    <!--image taken from https://pixabay.com/photos/burj-al-arab-dubai-sunset-emirates-5809639/ -->
+                    <img src="assets/img/uae-hp.jpg" class="d-block w100" alt="Dubai">
+                    <div class="carousel-caption">
+                        <h3>UAE</h3>
+                        <p>Dubai</p>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <!--image taken from https://pixabay.com/photos/istanbul-cami-turkey-travel-sunset-2430072/ -->
-                <img src="assets/img/turkey-hp.jpg" class="d-block w100" alt="Istanbul">
-                <div class="carousel-caption">
-                    <h3>Turkey</h3>
-                    <p>Istanbul</p>
+                <div class="carousel-item">
+                    <!--image taken from https://pixabay.com/photos/istanbul-cami-turkey-travel-sunset-2430072/ -->
+                    <img src="assets/img/turkey-hp.jpg" class="d-block w100" alt="Istanbul">
+                    <div class="carousel-caption">
+                        <h3>Turkey</h3>
+                        <p>Istanbul</p>
+                    </div>
                 </div>
+                <div class="carousel-item">
+                    <!--image taken from https://pixabay.com/photos/landscape-pyramids-desert-sand-5584652/ -->
+                    <img src="assets/img/egypt-hp.jpg" class="d-block w100" alt="Cairo">
+                    <div class="carousel-caption">
+                        <h3>Egypt</h3>
+                        <p>Cairo</p>
+                    </div>
+                </div>
+
+                <!-- Left and Right controls for the carousel -->
+                <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <div class="carousel-item">
-                <!--image taken from https://pixabay.com/photos/landscape-pyramids-desert-sand-5584652/ -->
-                <img src="assets/img/egypt-hp.jpg" class="d-block w100" alt="Cairo">
-                <div class="carousel-caption">
-                    <h3>Egypt</h3>
-                    <p>Cairo</p>
+        </div>
+    </header>
+
+   <main>
+    <div class="gallary">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="flip-card">
+                    <div class="flip-card-in">
+                        <div class="flip-front">
+                            <img class="card-img" src="assets/img/dubai-1420494_640.jpg">
+                        </div>
+                        <div class="flip-back">
+                            <h1>testing</h1>
+                            <p>testing</p>
+                            <p>testing</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <!-- Left and Right controls for the carousel -->
-            <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
 
         </div>
     </div>
+    </main>
+
 
     <footer>
 
