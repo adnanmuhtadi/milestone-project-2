@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Yatra+One:100,200,300,400,500,600,700|Kalam:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Yatra One:100,200,300,400,500,600,700|Kalam:100,200,300,400,500,600,700');
 
 * {
     margin: 0;
@@ -41,7 +41,7 @@ nav{
 
 /*------------------------------ Description*/
 .description {
-    font-family: "Yatra+One", sans-serif;
+    font-family: "Yatra One", sans-serif;
     text-align: center;
     margin: 40px 0px;
 }
