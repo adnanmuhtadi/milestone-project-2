@@ -45,7 +45,7 @@ The intended type of users which this site would be targeted for are individuals
     -   I kept the colour scheme sandy yellow to advertise the desert of the middle east with the black writing to keep the text easy to read (Used  [WebAIM](https://webaim.org/resources/contrastchecker/) to check the contrast of the colour scheme).
 
 -   #### Typography
-    -   ...
+    -   I have chosen to use Yatra One and Kalam font as the main fonts throughout the website with Sans Serif as the emergency font in the case for any reason the font is not being imported into the site correctly. Both Yatra One and Kalam are attractive fonts to use as it shows the middle eastern effect with the decorations and curves they use for their writing.
 
 -   #### Imagery
     -   The images that were used are based on the content of what it is portraying. Displaying the places to visit and cuisines to eat around the countries I am focusing on.
@@ -194,6 +194,9 @@ Utilising the code that was used taught from the Code Instute Lessons consisted 
 
 The main souce i used for the images if from [Pixabay](https://pixabay.com/):
 
+- Fonts used - Site wide
+    - [Yatra One](https://fonts.google.com/specimen/Yatra+One?preview.text=Explore%20The%20Middle%20East&preview.text_type=custom&query=mid&sidebar.open=true&selection.family=Yatra+One)
+    - [Kalam](https://fonts.google.com/specimen/Kalam?preview.text=Explore%20The%20Middle%20East&preview.text_type=custom&query=a&sidebar.open=true&selection.family=Kalam:wght@300)
 - Home Page - Carousel
     - [Lebanon - Beirut](https://pixabay.com/photos/beirut-raouch%C3%A9-lebanon-sea-5172850/)
     - [Jorand - Amman](https://pixabay.com/photos/archaeological-city-petra-jordan-2595597/)

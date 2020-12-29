@@ -36,6 +36,7 @@ nav{
 }
 
 .carousel-caption {
+    font-family: "Yatra One", sans-serif;
     background-color: rgb(0,1,1,0.4);
 }
 
@@ -89,6 +90,7 @@ nav{
 
 /* The display for the back of the card */
 .flip-back {
+    font-family: "Yatra One", sans-serif;
     padding: 15px;
     width: 100%;
     height: 100%;
@@ -97,11 +99,16 @@ nav{
     transform: rotateY(180deg);
 }
 
+.flip-back p {
+    margin-top:30px;
+    font-family: "kalam", sans-serif;
+}
+
 .btn-card {
     padding: 0 5px;
     position: absolute;
     color: black;
-    right: 25%;
+    right: 125px;
     bottom: 15px;
 }
 
