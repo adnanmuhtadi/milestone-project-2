@@ -136,7 +136,7 @@ The intended type of users which this site would be targeted for are individuals
     - Google fonts were used to import the font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1.  [JQuery:](https://jquery.com/)
+1. [JQuery:](https://jquery.com/)
     - JQuery was used to manipulate the API calling from my JSON file as well as the Google Places API
 
 #### Programs Used
@@ -207,5 +207,8 @@ The main souce i used for the images if from [Pixabay](https://pixabay.com/):
     - [Lebanon - Lady of Lebanon](https://pixabay.com/photos/madonna-christen-holy-mother-of-god-1745288/)
     - [Jordan - Dead Sea](https://pixabay.com/photos/dead-sea-swim-mud-pack-summer-1259507/)
     - [Dubai - The Palm Dubai](https://pixabay.com/photos/atlantis-the-palm-dubai-atlantis-5509820/)
+    - [Turkey - Turkish Coffee](https://pixabay.com/photos/coffee-pot-coffee-traditional-4506001/)
+    - [Jordan - Temple Of Hercules](https://pixabay.com/photos/temple-of-hercules-historic-site-4331371/)
+    - [Egypt - Egyption Pyramids](https://pixabay.com/photos/cairo-egypt-camel-egyptian-desert-1051378/)
 
 ### Acknowledgements

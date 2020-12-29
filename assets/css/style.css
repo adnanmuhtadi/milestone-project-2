@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Yatra+One:100,200,300,400,500,600,700|Kalam:100,200,300,400,500,600,700');
+
 * {
     margin: 0;
     padding: 0;
@@ -39,11 +41,13 @@ nav{
 
 /*------------------------------ Description*/
 .description {
+    font-family: "Yatra+One", sans-serif;
     text-align: center;
     margin: 40px 0px;
 }
 
 .description p {
+    font-family: "Kalam", sans-serif;
     margin: 40px 80px 80px;
     font-size: 20px;
     font-weight: 400;
@@ -103,4 +107,46 @@ nav{
 
 .btn-card a {
     color: #000000;
+}
+
+/*-----------------------------Footer Section*/
+.footer-section {
+    min-height: 150px;
+    background-color: #f4a460;
+    padding-top: 15px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-section a:hover {
+    transform: scale(1.1);
+    color: #000000;
+    text-shadow: 1px 1px 1px #676767;
+}
+
+.quicklinks h4 {
+    text-align: left;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.connect h4,
+.mycv h4 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+.social-logos,
+.mycv {
+    font-size: 40px;
+    text-align: center;
+}
+
+.fa-file {
+    font-size: 40px;
+    padding-top: 10px;
 }
