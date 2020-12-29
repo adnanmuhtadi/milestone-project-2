@@ -118,12 +118,14 @@ nav{
 
 /*-----------------------------Footer Section*/
 .footer-section {
+    text-align: center;
     min-height: 150px;
     background-color: #f4a460;
     padding-top: 15px;
 }
 
 .footer-section a {
+    font-family: "kalam", sans-serif;
     text-decoration: none;
     color: #000000;
 }
@@ -134,26 +136,20 @@ nav{
     text-shadow: 1px 1px 1px #676767;
 }
 
-.quicklinks h4 {
-    text-align: left;
-    font-weight: 700;
-    font-family: "Montserrat", sans-serif;
+.quicklinks h4,
+.social-media h4,
+.contact-us h4 {
+    font-family: "Yatra One", sans-serif;
 }
 
-.connect h4,
-.mycv h4 {
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-    font-weight: 700;
+.quicklinks p,
+.social-media p,
+.contact-us p {
+    font-family: "kalam", sans-serif;
 }
 
-.social-logos,
-.mycv {
+.social-logos {
     font-size: 40px;
     text-align: center;
 }
 
-.fa-file {
-    font-size: 40px;
-    padding-top: 10px;
-}
