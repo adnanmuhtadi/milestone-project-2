@@ -4,6 +4,10 @@
     border: 0;
 }
 
+.main-body {
+    margin: 0 70px;
+}
+
 /*------------------------------ Navigation Section*/
 nav{
     background-color: #f4a460;
@@ -38,7 +42,7 @@ nav{
     margin: 10px 80px;
     width: 200px;
     height: 300px;
-    border: 1px solid #f1f1f1;
+    border: 0px solid #f1f1f1;
 }
 
 /* This container is needed to position the front and back side */
