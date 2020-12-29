@@ -37,6 +37,17 @@ nav{
     background-color: rgb(0,1,1,0.4);
 }
 
+/*------------------------------ Description*/
+.description {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.description p {
+    margin: 40px 80px 80px;
+    font-size: 20px;
+}
+
 /*------------------------------ Card Flip*/
 .flip-card {
     margin: 10px 80px;
