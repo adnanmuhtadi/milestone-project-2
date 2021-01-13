@@ -20,15 +20,18 @@ nav{
     color: #000000;
 }
 
+.navbar-brand {
+	padding-right: 600px;
+}
+
 .navbar-main a {
+    text-align: right;
     margin-left: 50px;
+    padding-left: 100px;
+    text-decoration: none;
 }
 
 /*------------------------------ Navigation Section*/
-#myCarousel {
-    height: 95vh;
-    width: 100%;
-}
 
 #myCarousel img {
     height: 95vh;
@@ -153,3 +156,20 @@ nav{
     text-align: center;
 }
 
+@media only screen and (max-width: 1024px) {
+
+    .navbar-brand {
+        padding-right: 350px;
+    }
+
+
+@media only screen and (max-width: 768px) {
+
+    .navbar-brand {
+        padding-right: 100px;
+    }
+
+    .last-card {
+	    display: none;
+    }
+}
