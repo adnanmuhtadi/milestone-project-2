@@ -162,6 +162,16 @@ nav{
         padding-right: 350px;
     }
 
+    .card-img{
+        width: 250px;
+        height: 350px;
+    }
+
+    .flip-card {
+        width: 250px;
+        height: 350px;
+    }
+
 
 @media only screen and (max-width: 768px) {
 
@@ -169,7 +179,15 @@ nav{
         padding-right: 100px;
     }
 
+    #myCarousel img {
+        height: 70vh;
+        width: 100%;
+    }
+
     .last-card {
 	    display: none;
     }
 }
+
+@media only screen and (max-width: 425px) {
+
