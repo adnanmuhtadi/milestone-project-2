@@ -130,6 +130,8 @@ The intended type of users which this site would be targeted for are individuals
 #### Frameworks
 1. [Bootstrap 4.5.3:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [JQuery Core 3.5.1](https://code.jquery.com/)
+    - JQuery library was used to assist with the responsiveness of the nav bar.
 
 #### Library
 1. [Google Fonts:](https://fonts.google.com/)
@@ -189,6 +191,8 @@ Utilising the code that was used taught from the Code Instute Lessons consisted 
     - Which was used for the homepage and the country page within the header of the site.
 - [Card Flip](https://www.w3schools.com/howto/howto_css_flip_card.asp)
     - Utilising the flip of cards to advertise the picture with a description when being hovered. A button within the description to take them to the [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) page.
+- [Hamburger Menu - Collapseable Menu](https://getbootstrap.com/docs/5.0/components/navbar/)
+    - I utilised bootstrap code to assist me with the build of the responsive navbar when it shrinks to mobile size.
 
 ### Media
 
