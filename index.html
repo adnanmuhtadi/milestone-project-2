@@ -16,9 +16,11 @@
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
+
     <script type="text/javascript">
         (function() {
                 emailjs.init("user_9UPvI1Hs4JHGtyozwple6");
+        })();
     </script>
 
 </head>
@@ -296,7 +298,7 @@
                         </div>
 
                         <div class="center-form">
-                            <form onsubmit="contact return sendMail(this);" method="POST">
+                            <form onsubmit="return sendMail(this);" method="POST">
                                 <input type="text" name="fullname" class="form-control" id="from_fullname" placeholder="Full Name" required />
                                 <input type="text" name="useremail" class="form-control" id="from_useremail" placeholder="Email" required />
                                 <input type="text" name="country_request" class="form-control" id="country_request" placeholder="Country in Question?" required />
