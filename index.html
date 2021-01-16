@@ -14,6 +14,14 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" type="text/css" />
 
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_9UPvI1Hs4JHGtyozwple6");
+    </script>
+
 </head>
 
 <body>
@@ -34,7 +42,7 @@
                     <a class="nav-link" href="country.html">Country</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link" data-toggle="modal" data-target="#contact-modal">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -264,6 +272,46 @@
         </div>
     </main>
 
+    <!--
+    Contact Me section as it is built within a modal feature. This has been utilised from bootstrap however modified to make it work for my needs.
+    This is being called from the navigation bar.
+    -->
+    <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+
+           <!-- The content for the Contact Me modal form -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="contact-title">Contact Me</h1>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <!-- The body of the contact form where the user would fill out and have it sent to me. -->
+                <div class="contact-body">
+                        <div class="row bg-color-contact">
+                            <div class="contact-headers">
+                                <h3 class="contact-heading">Is there a country in the Middle East you would like to know more about?</h3>
+                                <h5>Please let me know.</h5>
+                            </div>
+
+                            <form class="center-form">
+                                <input type="text" name="fullName" class="form-control" id="fullname" placeholder="Full Name" required/>
+                                <input type="text" name="emailAddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                                <textarea rows="5" name="question" class="form-control" id="projectsummary" placeholder="" required></textarea>
+                            </form>
+
+                        </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <div class="footer-section">

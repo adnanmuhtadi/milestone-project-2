@@ -107,6 +107,7 @@ nav {
     transform: rotateY(180deg);
 }
 
+/*  */
 .flip-back p {
     margin-top: 30px;
     font-family: "kalam", sans-serif;
@@ -122,6 +123,23 @@ nav {
 
 .btn-card a {
     color: #000000;
+}
+
+/*-----------------------------Contact Me Modal*/
+.contact-title {
+    font-family: "Yatra One", sans-serif;
+    text-align: center;
+}
+
+.contact-headers {
+    margin: 30px 30px;
+    font-family: "Kalam", sans-serif;
+    text-align: center;
+}
+
+.center-form {
+    margin: 0 50px;
+    width: 100%;
 }
 
 /*-----------------------------Footer Section*/
@@ -176,7 +194,7 @@ nav {
         width: 250px;
         height: 350px;
     }
-
+}
 
 @media only screen and (max-width: 768px) {
 
