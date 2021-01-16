@@ -21,7 +21,7 @@ nav {
 }
 
 .navbar-brand {
-    padding-right: 750px;
+    padding-right: 650px;
 }
 
 .navbar-main a {
@@ -142,6 +142,14 @@ nav {
     width: 100%;
 }
 
+.form-control {
+	margin-bottom: 20px;
+}
+
+.contact-body {
+    padding-bottom: 20px;
+}
+
 /*-----------------------------Footer Section*/
 .footer-section {
     text-align: center;
@@ -182,7 +190,7 @@ nav {
 @media only screen and (max-width: 1024px) {
 
     .navbar-brand {
-        padding-right: 350px;
+        padding-right: 250px;
     }
 
     .card-img {
@@ -194,12 +202,23 @@ nav {
         width: 250px;
         height: 350px;
     }
+
+    .contact-title {
+        font-family: "Yatra One", sans-serif;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .contact-heading {
+        font-size: 20px;
+    }
+    }
 }
 
 @media only screen and (max-width: 768px) {
 
     .navbar-brand {
-        padding-right: 100px;
+        padding-right: 40px;
     }
 
     #myCarousel img {
