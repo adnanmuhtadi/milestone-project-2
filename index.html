@@ -14,12 +14,11 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" type="text/css" />
 
-    <script type="text/javascript"
-            src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
     <script type="text/javascript">
-        (function(){
-            emailjs.init("user_9UPvI1Hs4JHGtyozwple6");
+        (function() {
+                emailjs.init("user_9UPvI1Hs4JHGtyozwple6");
     </script>
 
 </head>
@@ -279,7 +278,7 @@
     <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
 
-           <!-- The content for the Contact Me modal form -->
+            <!-- The content for the Contact Me modal form -->
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="contact-title">Contact Me</h1>
@@ -290,23 +289,25 @@
 
                 <!-- The body of the contact form where the user would fill out and have it sent to me. -->
                 <div class="contact-body">
-                        <div class="row bg-color-contact">
-                            <div class="contact-headers">
-                                <h3 class="contact-heading">Is there a country in the Middle East you would like to know more about?</h3>
-                                <h5>Please let me know.</h5>
-                            </div>
+                    <div class="row bg-color-contact">
+                        <div class="contact-headers">
+                            <h3 class="contact-heading">Is there a country in the Middle East you would like to know more about?</h3>
+                            <h5>Please let me know.</h5>
+                        </div>
 
-                            <form class="center-form">
-                                <input type="text" class="form-control" id="user-fullname" placeholder="Full Name" required/>
+                        <div class="center-form">
+                            <form onsubmit="return sendMail(this);" method="POST">
+                                <input type="text" class="form-control" id="user-fullname" placeholder="Full Name" required />
 
-                                <input type="text" class="form-control" id="user-emailaddress" placeholder="Email" required/>
+                                <input type="text" class="form-control" id="user-emailaddress" placeholder="Email" required />
 
-                                <input type="text" class="form-control" id="user-country" placeholder="Country in Question?" required/>
+                                <input type="text" class="form-control" id="user-country" placeholder="Country in Question?" required />
 
                                 <textarea rows="5" class="form-control" id="user-question" placeholder="Question?" required></textarea>
                             </form>
-
                         </div>
+
+                    </div>
                 </div>
 
                 <div class="modal-footer">
@@ -358,8 +359,10 @@
     </footer>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
 
+    <script src="assets/js/sendEmail.js"></script>
 
 </body>
 
