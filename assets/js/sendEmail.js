@@ -1,4 +1,4 @@
-let btn = document.getElementById('buttons');
+let btn = document.getElementById('send-modal-button');
 
 function changeSendBtnText() {
     btn.textContent = 'Send';
