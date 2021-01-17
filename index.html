@@ -297,23 +297,24 @@
                             <h5>Please let me know.</h5>
                         </div>
 
+
                         <div class="center-form">
-                            <form id="contactForm" onsubmit="return sendMail(this);" method="POST">
-                                <input type="text" name="fullname" class="form-control" id="from_fullname" placeholder="Full Name" required />
-                                <input type="text" name="useremail" class="form-control" id="from_useremail" placeholder="Email" required />
-                                <input type="text" name="country_request" class="form-control" id="country_requested" placeholder="Country in Question?" required />
-                                <input type="text" name="question_asked" class="form-control" id="question_asked" placeholder="Question?" required />
+                            <form id="contactForm">
+                                <input type="text" name="fullname" class="form-control" id="from_fullname" placeholder="Full Name" required/>
+                                <input type="text" name="useremail" class="form-control" id="from_useremail" placeholder="Email" required/>
+                                <input type="text" name="country_request" class="form-control" id="country_requested" placeholder="Country in Question?" required/>
+                                <input type="text" name="question_asked" class="form-control" id="question_asked" placeholder="Question?" required/>
                                 <div class="modal-footer">
+
+
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary" id="send-modal-button">Send</button>
+                                    <button type="submit" class="btn btn-primary" id="send-modal-button">Send</button>
                                 </div>
                             </form>
                         </div>
 
                     </div>
                 </div>
-
-
 
             </div>
         </div>
