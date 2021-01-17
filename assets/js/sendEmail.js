@@ -1,3 +1,8 @@
+//The sendEmail.js file was created utilising the following links to assist with the built of the site
+//  https://dashboard.emailjs.com/admin
+//  https://dashboard.emailjs.com/admin/integration/browser
+//  https://www.emailjs.com/docs/sdk/send/
+
 //Creating a variable to associate the button
 let btn = document.getElementById('send-modal-button');
 
