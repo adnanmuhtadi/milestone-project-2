@@ -273,10 +273,8 @@
         </div>
     </main>
 
-    <!--
-    Contact Me section as it is built within a modal feature. This has been utilised from bootstrap however modified to make it work for my needs.
-    This is being called from the navigation bar.
-    -->
+    <!-- Contact Me section as it is built within a modal feature. This has been utilised from bootstrap however modified to make it work for my needs.
+    This is being called from the navigation bar. -->
     <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
 
@@ -297,16 +295,16 @@
                             <h5>Please let me know.</h5>
                         </div>
 
-
+                        <!-- The Modal form which displays the fields of entry ensuring all is required before sending to the site admin -->
                         <div class="center-form">
                             <form id="contactForm">
                                 <input type="text" name="fullname" class="form-control" id="from_fullname" placeholder="Full Name" required/>
                                 <input type="text" name="useremail" class="form-control" id="from_useremail" placeholder="Email" required/>
                                 <input type="text" name="country_request" class="form-control" id="country_requested" placeholder="Country in Question?" required/>
                                 <input type="text" name="question_asked" class="form-control" id="question_asked" placeholder="Question?" required/>
+
+                                <!-- Buttons used to close the modal as well as the submit functionality which would activate the sendEmail.js file -->
                                 <div class="modal-footer">
-
-
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                     <button type="submit" class="btn btn-primary" id="send-modal-button">Send</button>
                                 </div>
