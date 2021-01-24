@@ -11,7 +11,7 @@ document.getElementById('contactForm')
     .addEventListener('submit', function (event) {
     event.preventDefault();
 
-        // Informing the user that the email is sending
+    //Informing the user that the email is sending.
     btn.textContent = 'Sending...';
 
     // Variables which stores the details which connect the service and template associated within the EmailJS
