@@ -298,10 +298,10 @@
                         <!-- The Modal form which displays the fields of entry ensuring all is required before sending to the site admin -->
                         <div class="center-form">
                             <form id="contactForm">
-                                <input type="text" name="fullname" class="form-control" id="from_fullname" placeholder="Full Name" required/>
-                                <input type="text" name="useremail" class="form-control" id="from_useremail" placeholder="Email" required/>
-                                <input type="text" name="country_request" class="form-control" id="country_requested" placeholder="Country in Question?" required/>
-                                <input type="text" name="question_asked" class="form-control" id="question_asked" placeholder="Question?" required/>
+                                <input type="text" name="fullname" class="form-control" id="from_fullname" placeholder="Full Name" required />
+                                <input type="text" name="useremail" class="form-control" id="from_useremail" placeholder="Email" required />
+                                <input type="text" name="country_request" class="form-control" id="country_requested" placeholder="Country in Question?" required />
+                                <input type="text" name="question_asked" class="form-control" id="question_asked" placeholder="Question?" required />
 
                                 <!-- Buttons used to close the modal as well as the submit functionality which would activate the sendEmail.js file -->
                                 <div class="modal-footer">
@@ -321,6 +321,7 @@
     <footer>
         <div class="footer-section">
             <div class="row col-12">
+                <!--Quick links which would redirect you to different parts of the site-->
                 <div class="col-lg-4 col-md-3 quicklinks">
                     <h4>Quick Links</h4>
                     <div class="row">
@@ -331,7 +332,7 @@
                             <a href="country.html">Country</a>
                         </div>
                         <div class="col col-12">
-                            <a href="contact.html">Contact</a>
+                            <a data-toggle="modal" data-target="#contact-modal">Contact</a>
                         </div>
                     </div>
                 </div>
@@ -347,6 +348,7 @@
                     </div>
                 </div>
 
+               <!--Contact information displayed in the footer as alternative methods to reach out-->
                 <div class="col-lg-4 col-md-3 contact-us">
                     <h4>Contact Info</h4>
                     <p>Phone Number: +440000000000<br>
