@@ -193,6 +193,10 @@ Utilising the code that was used taught from the Code Instute Lessons consisted 
     - Utilising the flip of cards to advertise the picture with a description when being hovered. A button within the description to take them to the [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) page.
 - [Hamburger Menu - Collapseable Menu](https://getbootstrap.com/docs/5.0/components/navbar/)
     - I utilised bootstrap code to assist me with the build of the responsive navbar when it shrinks to mobile size.
+- [Contact Form](https://www.emailjs.com/)
+    - Using emailJS service to send emails from the contact form
+- [Contact Form - Response Constructor](https://developer.mozilla.org/en-US/docs/Web/API/Response)
+    -
 
 ### Media
 
