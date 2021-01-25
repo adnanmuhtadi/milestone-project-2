@@ -131,40 +131,40 @@ function placeInfo(placeImage, placeName, placeDescription, placeURL) {
 
 //Creating the constructor object with a string that is linked to the HTML
 //The description of the location and image (screenshot), was taken from https://www.lonelyplanet.com/lebanon/beirut/attractions/national-museum-of-beirut/a/poi-sig/418869/361093
-let lebanonPlace1 = new placeInfo("img/lebanon-img1.jpg", "National Museum of Beirut", "Beirut's major cultural institution. Its impressive, magnificently displayed collection of Lebanon’s history and the civilisations.", "https://www.lonelyplanet.com/lebanon/beirut/attractions/national-museum-of-beirut/a/poi-sig/418869/361093");
+let lebanonPlace1 = new placeInfo("img/places/lebanon-img1.jpg", "National Museum of Beirut", "Beirut's major cultural institution. Its impressive, magnificently displayed collection of Lebanon’s history and the civilisations.", "https://www.lonelyplanet.com/lebanon/beirut/attractions/national-museum-of-beirut/a/poi-sig/418869/361093");
 //The description of the location and image was taken from https://www.lonelyplanet.com/lebanon/beirut/attractions/maronite-cathedral-of-st-george/a/poi-sig/418885/361093
-let lebanonPlace2 = new placeInfo("img/lebanon-img2.jpg", "Maronite Cathedral of St George", "It's the seat of the city's Maronite archdiocese.", "https://www.lonelyplanet.com/lebanon/beirut/attractions/maronite-cathedral-of-st-george/a/poi-sig/418885/361093");
+let lebanonPlace2 = new placeInfo("img/places/lebanon-img2.jpg", "Maronite Cathedral of St George", "It's the seat of the city's Maronite archdiocese.", "https://www.lonelyplanet.com/lebanon/beirut/attractions/maronite-cathedral-of-st-george/a/poi-sig/418885/361093");
 //The description of the location and image was taken from https://www.lonelyplanet.com/lebanon/beirut/attractions/pigeon-rocks/a/poi-sig/1574639/361093
-let lebanonPlace3 = new placeInfo("img/lebanon-img3.jpg", "Pigeon Rocks in Raouche", "These limestone outcrops are a prime selfie terriroty and a Beirut landmark.", "https://www.lonelyplanet.com/lebanon/beirut/attractions/pigeon-rocks/a/poi-sig/1574639/361093");
+let lebanonPlace3 = new placeInfo("img/places/lebanon-img3.jpg", "Pigeon Rocks in Raouche", "These limestone outcrops are a prime selfie terriroty and a Beirut landmark.", "https://www.lonelyplanet.com/lebanon/beirut/attractions/pigeon-rocks/a/poi-sig/1574639/361093");
 
 //The description of the location and image was taken from https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/burj-al-arab/a/poi-sig/1146398/361166
-let dubaiPlace1 = new placeInfo("img/dubai-img1.jpg", "Burj Al Arab", "The Burj is to to Dubai what the Eiffel Tower is to Paris.", "https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/burj-al-arab/a/poi-sig/1146398/361166");
+let dubaiPlace1 = new placeInfo("img/places/dubai-img1.jpg", "Burj Al Arab", "The Burj is to to Dubai what the Eiffel Tower is to Paris.", "https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/burj-al-arab/a/poi-sig/1146398/361166");
 //The description of the location and image was taken from https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/img-worlds-of-adventure/a/poi-sig/1558762/361166
-let dubaiPlace2 = new placeInfo("img/dubai-img2.jpg", "IMG Worlds of Adventure", "The world’s largest indoor theme park.", "https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/img-worlds-of-adventure/a/poi-sig/1558762/361166");
+let dubaiPlace2 = new placeInfo("img/places/dubai-img2.jpg", "IMG Worlds of Adventure", "The world’s largest indoor theme park.", "https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/img-worlds-of-adventure/a/poi-sig/1558762/361166");
 //The description of the location and image was taken from https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/gold-souq/a/poi-sig/397285/361166
-let dubaiPlace3 = new placeInfo("img/dubai-img3.jpg", "Gold Souq", "From delicate pearl earrings to lavish golden wedding necklaces.", "https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/gold-souq/a/poi-sig/397285/361166");
+let dubaiPlace3 = new placeInfo("img/places/dubai-img3.jpg", "Gold Souq", "From delicate pearl earrings to lavish golden wedding necklaces.", "https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/gold-souq/a/poi-sig/397285/361166");
 
 //The description of the location and image was taken from https://www.lonelyplanet.com/turkey/istanbul/attractions/topkapi-palace/a/poi-sig/402212/360887
-let turkeyPlace1 = new placeInfo("img/turkey-img1.jpg", "Topkapı Palace", "Topkapı is the subject of more colourful stories than most of the world's museums put together.", "https://www.lonelyplanet.com/turkey/istanbul/attractions/topkapi-palace/a/poi-sig/402212/360887");
+let turkeyPlace1 = new placeInfo("img/places/turkey-img1.jpg", "Topkapı Palace", "Topkapı is the subject of more colourful stories than most of the world's museums put together.", "https://www.lonelyplanet.com/turkey/istanbul/attractions/topkapi-palace/a/poi-sig/402212/360887");
 //The description of the location and image was taken from https://www.lonelyplanet.com/turkey/istanbul/attractions/suleymaniye-mosque/a/poi-sig/401910/360887
-let turkeyPlace2 = new placeInfo("img/turkey-img2.jpg", "Süleymaniye Mosque", "One of İstanbul's seven hills and dominates the Golden Horn.", "https://www.lonelyplanet.com/turkey/istanbul/attractions/suleymaniye-mosque/a/poi-sig/401910/360887");
+let turkeyPlace2 = new placeInfo("img/places/turkey-img2.jpg", "Süleymaniye Mosque", "One of İstanbul's seven hills and dominates the Golden Horn.", "https://www.lonelyplanet.com/turkey/istanbul/attractions/suleymaniye-mosque/a/poi-sig/401910/360887");
 //The description of the location and image was taken from https://www.lonelyplanet.com/turkey/istanbul/attractions/kariye-museum-chora-church/a/poi-sig/402174/360887
-let turkeyPlace3 = new placeInfo("img/turkey-img3.jpg", "Kariye Museum", "Istanbul deop-dead gorgeous and mosaic church.", "https://www.lonelyplanet.com/turkey/istanbul/attractions/kariye-museum-chora-church/a/poi-sig/402174/360887");
+let turkeyPlace3 = new placeInfo("img/places/turkey-img3.jpg", "Kariye Museum", "Istanbul deop-dead gorgeous and mosaic church.", "https://www.lonelyplanet.com/turkey/istanbul/attractions/kariye-museum-chora-church/a/poi-sig/402174/360887");
 
 //The description of the location and image was taken from https://www.britannica.com/topic/Pyramids-of-Giza
-let egyptPlace1 = new placeInfo("img/egypt-img1.jpg", "Pyramids of Giza", "In ancient times they were included among the Seven Wonders of the World.", "https://www.britannica.com/topic/Pyramids-of-Giza");
+let egyptPlace1 = new placeInfo("img/places/egypt-img1.jpg", "Pyramids of Giza", "In ancient times they were included among the Seven Wonders of the World.", "https://www.britannica.com/topic/Pyramids-of-Giza");
 //The description of the location and image was taken from https://www.britannica.com/topic/Egyptian-Museum-Cairo-Egypt
-let egyptPlace2 = new placeInfo("img/egypt-img2.jpg", "Egyptian Museum", "Housing the world’s most valuable collection of its kind.", "https://www.britannica.com/topic/Egyptian-Museum-Cairo-Egypt");
+let egyptPlace2 = new placeInfo("img/places/egypt-img2.jpg", "Egyptian Museum", "Housing the world’s most valuable collection of its kind.", "https://www.britannica.com/topic/Egyptian-Museum-Cairo-Egypt");
 //The description of the location and image was taken from https://theculturetrip.com/africa/egypt/articles/the-essential-guide-to-cairos-khan-el-khalili-market/
-let egyptPlace3 = new placeInfo("img/egypt-img3.jpg", "Khan El-Khalily Bazar", "Old Cairo has always been an important district for cultural and economic activities.", "https://theculturetrip.com/africa/egypt/articles/the-essential-guide-to-cairos-khan-el-khalili-market/");
+let egyptPlace3 = new placeInfo("img/places/egypt-img3.jpg", "Khan El-Khalily Bazar", "Old Cairo has always been an important district for cultural and economic activities.", "https://theculturetrip.com/africa/egypt/articles/the-essential-guide-to-cairos-khan-el-khalili-market/");
 
 //The description of the location and image was taken from https://www.lonelyplanet.com/jordan/amman/attractions/citadel/a/poi-sig/1443155/361068
-let jordanPlace1 = new placeInfo("img/jordan-img1.jpg", "Citadel", "Highest hill in Amman, Jebel Al Qala’a (about 850m above sea level), and is the site of ancient Rabbath-Ammon.", "https://www.lonelyplanet.com/jordan/amman/attractions/citadel/a/poi-sig/1443155/361068");
+let jordanPlace1 = new placeInfo("img/places/jordan-img1.jpg", "Citadel", "Highest hill in Amman, Jebel Al Qala’a (about 850m above sea level), and is the site of ancient Rabbath-Ammon.", "https://www.lonelyplanet.com/jordan/amman/attractions/citadel/a/poi-sig/1443155/361068");
 //The description of the location and image was taken from https://www.lonelyplanet.com/articles/best-stops-on-a-stroll-along-ammans-famous-rainbow-street
-let jordanPlace2 = new placeInfo("img/jordan-img2.jpg", "Rainbow Street", "Rainbow Street invites visitors and locals to do something that’s not always easy or possible in Jordan’s crowded capital: walk!", "https://www.lonelyplanet.com/articles/best-stops-on-a-stroll-along-ammans-famous-rainbow-street");
+let jordanPlace2 = new placeInfo("img/places/jordan-img2.jpg", "Rainbow Street", "Rainbow Street invites visitors and locals to do something that’s not always easy or possible in Jordan’s crowded capital: walk!", "https://www.lonelyplanet.com/articles/best-stops-on-a-stroll-along-ammans-famous-rainbow-street");
 //For the description, i used https://www.lonelyplanet.com/jordan/jerash-and-the-north/irbid/attractions/jordan-natural-history-museum/a/poi-sig/1073967/361071
 //For the image, i used https://www.planetware.com/jordan/top-rated-things-to-do-in-amman-jo-1-2.htm
-let jordanPlace3 = new placeInfo("img/jordan-img3.jpg", "Jordan Natural History Museum", "a good place to identify some of Jordan’s most elusive species.", "https://www.lonelyplanet.com/jordan/jerash-and-the-north/irbid/attractions/jordan-natural-history-museum/a/poi-sig/1073967/361071");
+let jordanPlace3 = new placeInfo("img/places/jordan-img3.jpg", "Jordan Natural History Museum", "a good place to identify some of Jordan’s most elusive species.", "https://www.lonelyplanet.com/jordan/jerash-and-the-north/irbid/attractions/jordan-natural-history-museum/a/poi-sig/1073967/361071");
 
 //Gets the elements by their ID and adding the constructor information to the HTML, with a string and the constructor object.
 document.getElementById("place-img1-1").src = lebanonPlace1.placeImage;
