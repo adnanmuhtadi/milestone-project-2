@@ -360,3 +360,11 @@ document.getElementById("food-img3-5").src = jordanFood3.foodImage;
 document.getElementById("food-name3-5").innerHTML = jordanFood3.foodName;
 document.getElementById("food-desc3-5").innerHTML = jordanFood3.foodDescription;
 document.getElementById("food-more3-5").href = jordanFood3.foodURL;
+
+//Hiding all the content so when the country is selected from the drop down, it will keep the others hidden but display the country that is chosen
+document.getElementById("country-container1").style.display = "none";
+document.getElementById("country-container2").style.display = "none";
+document.getElementById("country-container3").style.display = "none";
+document.getElementById("country-container4").style.display = "none";
+document.getElementById("country-container5").style.display = "none";
+
