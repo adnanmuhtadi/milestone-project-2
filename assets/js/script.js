@@ -131,40 +131,40 @@ function placeInfo(placeImage, placeName, placeDescription, placeURL) {
 
 //Creating the constructor object with a string that is linked to the HTML
 //The description of the location and image (screenshot), was taken from https://www.lonelyplanet.com/lebanon/beirut/attractions/national-museum-of-beirut/a/poi-sig/418869/361093
-let lebanonPlace1 = new placeInfo("img/places/lebanon-img1.jpg", "National Museum of Beirut", "Beirut's major cultural institution. Its impressive, magnificently displayed collection of Lebanon’s history and the civilisations.", "https://www.lonelyplanet.com/lebanon/beirut/attractions/national-museum-of-beirut/a/poi-sig/418869/361093");
+let lebanonPlace1 = new placeInfo("assets/img/places/lebanon-img1.jpg", "National Museum of Beirut", "Beirut's major cultural institution. Its impressive, magnificently displayed collection of Lebanon’s history and the civilisations.", "https://www.lonelyplanet.com/lebanon/beirut/attractions/national-museum-of-beirut/a/poi-sig/418869/361093");
 //The description of the location and image was taken from https://www.lonelyplanet.com/lebanon/beirut/attractions/maronite-cathedral-of-st-george/a/poi-sig/418885/361093
-let lebanonPlace2 = new placeInfo("img/places/lebanon-img2.jpg", "Maronite Cathedral of St George", "It's the seat of the city's Maronite archdiocese.", "https://www.lonelyplanet.com/lebanon/beirut/attractions/maronite-cathedral-of-st-george/a/poi-sig/418885/361093");
+let lebanonPlace2 = new placeInfo("assets/img/places/lebanon-img2.jpg", "Maronite Cathedral of St George", "It's the seat of the city's Maronite archdiocese.", "https://www.lonelyplanet.com/lebanon/beirut/attractions/maronite-cathedral-of-st-george/a/poi-sig/418885/361093");
 //The description of the location and image was taken from https://www.lonelyplanet.com/lebanon/beirut/attractions/pigeon-rocks/a/poi-sig/1574639/361093
-let lebanonPlace3 = new placeInfo("img/places/lebanon-img3.jpg", "Pigeon Rocks in Raouche", "These limestone outcrops are a prime selfie terriroty and a Beirut landmark.", "https://www.lonelyplanet.com/lebanon/beirut/attractions/pigeon-rocks/a/poi-sig/1574639/361093");
+let lebanonPlace3 = new placeInfo("assets/img/places/lebanon-img3.jpg", "Pigeon Rocks in Raouche", "These limestone outcrops are a prime selfie terriroty and a Beirut landmark.", "https://www.lonelyplanet.com/lebanon/beirut/attractions/pigeon-rocks/a/poi-sig/1574639/361093");
 
 //The description of the location and image was taken from https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/burj-al-arab/a/poi-sig/1146398/361166
-let dubaiPlace1 = new placeInfo("img/places/dubai-img1.jpg", "Burj Al Arab", "The Burj is to to Dubai what the Eiffel Tower is to Paris.", "https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/burj-al-arab/a/poi-sig/1146398/361166");
+let dubaiPlace1 = new placeInfo("assets/img/places/dubai-img1.jpg", "Burj Al Arab", "The Burj is to to Dubai what the Eiffel Tower is to Paris.", "https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/burj-al-arab/a/poi-sig/1146398/361166");
 //The description of the location and image was taken from https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/img-worlds-of-adventure/a/poi-sig/1558762/361166
-let dubaiPlace2 = new placeInfo("img/places/dubai-img2.jpg", "IMG Worlds of Adventure", "The world’s largest indoor theme park.", "https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/img-worlds-of-adventure/a/poi-sig/1558762/361166");
+let dubaiPlace2 = new placeInfo("assets/img/places/dubai-img2.jpg", "IMG Worlds of Adventure", "The world’s largest indoor theme park.", "https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/img-worlds-of-adventure/a/poi-sig/1558762/361166");
 //The description of the location and image was taken from https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/gold-souq/a/poi-sig/397285/361166
-let dubaiPlace3 = new placeInfo("img/places/dubai-img3.jpg", "Gold Souq", "From delicate pearl earrings to lavish golden wedding necklaces.", "https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/gold-souq/a/poi-sig/397285/361166");
+let dubaiPlace3 = new placeInfo("assets/img/places/dubai-img3.jpg", "Gold Souq", "From delicate pearl earrings to lavish golden wedding necklaces.", "https://www.lonelyplanet.com/united-arab-emirates/dubai/attractions/gold-souq/a/poi-sig/397285/361166");
 
 //The description of the location and image was taken from https://www.lonelyplanet.com/turkey/istanbul/attractions/topkapi-palace/a/poi-sig/402212/360887
-let turkeyPlace1 = new placeInfo("img/places/turkey-img1.jpg", "Topkapı Palace", "Topkapı is the subject of more colourful stories than most of the world's museums put together.", "https://www.lonelyplanet.com/turkey/istanbul/attractions/topkapi-palace/a/poi-sig/402212/360887");
+let turkeyPlace1 = new placeInfo("assets/img/places/turkey-img1.jpg", "Topkapı Palace", "Topkapı is the subject of more colourful stories than most of the world's museums put together.", "https://www.lonelyplanet.com/turkey/istanbul/attractions/topkapi-palace/a/poi-sig/402212/360887");
 //The description of the location and image was taken from https://www.lonelyplanet.com/turkey/istanbul/attractions/suleymaniye-mosque/a/poi-sig/401910/360887
-let turkeyPlace2 = new placeInfo("img/places/turkey-img2.jpg", "Süleymaniye Mosque", "One of İstanbul's seven hills and dominates the Golden Horn.", "https://www.lonelyplanet.com/turkey/istanbul/attractions/suleymaniye-mosque/a/poi-sig/401910/360887");
+let turkeyPlace2 = new placeInfo("assets/img/places/turkey-img2.jpg", "Süleymaniye Mosque", "One of İstanbul's seven hills and dominates the Golden Horn.", "https://www.lonelyplanet.com/turkey/istanbul/attractions/suleymaniye-mosque/a/poi-sig/401910/360887");
 //The description of the location and image was taken from https://www.lonelyplanet.com/turkey/istanbul/attractions/kariye-museum-chora-church/a/poi-sig/402174/360887
-let turkeyPlace3 = new placeInfo("img/places/turkey-img3.jpg", "Kariye Museum", "Istanbul deop-dead gorgeous and mosaic church.", "https://www.lonelyplanet.com/turkey/istanbul/attractions/kariye-museum-chora-church/a/poi-sig/402174/360887");
+let turkeyPlace3 = new placeInfo("assets/img/places/turkey-img3.jpg", "Kariye Museum", "Istanbul deop-dead gorgeous and mosaic church.", "https://www.lonelyplanet.com/turkey/istanbul/attractions/kariye-museum-chora-church/a/poi-sig/402174/360887");
 
 //The description of the location and image was taken from https://www.britannica.com/topic/Pyramids-of-Giza
-let egyptPlace1 = new placeInfo("img/places/egypt-img1.jpg", "Pyramids of Giza", "In ancient times they were included among the Seven Wonders of the World.", "https://www.britannica.com/topic/Pyramids-of-Giza");
+let egyptPlace1 = new placeInfo("assets/img/places/egypt-img1.jpg", "Pyramids of Giza", "In ancient times they were included among the Seven Wonders of the World.", "https://www.britannica.com/topic/Pyramids-of-Giza");
 //The description of the location and image was taken from https://www.britannica.com/topic/Egyptian-Museum-Cairo-Egypt
-let egyptPlace2 = new placeInfo("img/places/egypt-img2.jpg", "Egyptian Museum", "Housing the world’s most valuable collection of its kind.", "https://www.britannica.com/topic/Egyptian-Museum-Cairo-Egypt");
+let egyptPlace2 = new placeInfo("assets/img/places/egypt-img2.jpg", "Egyptian Museum", "Housing the world’s most valuable collection of its kind.", "https://www.britannica.com/topic/Egyptian-Museum-Cairo-Egypt");
 //The description of the location and image was taken from https://theculturetrip.com/africa/egypt/articles/the-essential-guide-to-cairos-khan-el-khalili-market/
-let egyptPlace3 = new placeInfo("img/places/egypt-img3.jpg", "Khan El-Khalily Bazar", "Old Cairo has always been an important district for cultural and economic activities.", "https://theculturetrip.com/africa/egypt/articles/the-essential-guide-to-cairos-khan-el-khalili-market/");
+let egyptPlace3 = new placeInfo("assets/img/places/egypt-img3.jpg", "Khan El-Khalily Bazar", "Old Cairo has always been an important district for cultural and economic activities.", "https://theculturetrip.com/africa/egypt/articles/the-essential-guide-to-cairos-khan-el-khalili-market/");
 
 //The description of the location and image was taken from https://www.lonelyplanet.com/jordan/amman/attractions/citadel/a/poi-sig/1443155/361068
-let jordanPlace1 = new placeInfo("img/places/jordan-img1.jpg", "Citadel", "Highest hill in Amman, Jebel Al Qala’a (about 850m above sea level), and is the site of ancient Rabbath-Ammon.", "https://www.lonelyplanet.com/jordan/amman/attractions/citadel/a/poi-sig/1443155/361068");
+let jordanPlace1 = new placeInfo("assets/img/places/jordan-img1.jpg", "Citadel", "Highest hill in Amman, Jebel Al Qala’a (about 850m above sea level), and is the site of ancient Rabbath-Ammon.", "https://www.lonelyplanet.com/jordan/amman/attractions/citadel/a/poi-sig/1443155/361068");
 //The description of the location and image was taken from https://www.lonelyplanet.com/articles/best-stops-on-a-stroll-along-ammans-famous-rainbow-street
-let jordanPlace2 = new placeInfo("img/places/jordan-img2.jpg", "Rainbow Street", "Rainbow Street invites visitors and locals to do something that’s not always easy or possible in Jordan’s crowded capital: walk!", "https://www.lonelyplanet.com/articles/best-stops-on-a-stroll-along-ammans-famous-rainbow-street");
+let jordanPlace2 = new placeInfo("assets/img/places/jordan-img2.jpg", "Rainbow Street", "Rainbow Street invites visitors and locals to do something that’s not always easy or possible in Jordan’s crowded capital: walk!", "https://www.lonelyplanet.com/articles/best-stops-on-a-stroll-along-ammans-famous-rainbow-street");
 //For the description, i used https://www.lonelyplanet.com/jordan/jerash-and-the-north/irbid/attractions/jordan-natural-history-museum/a/poi-sig/1073967/361071
 //For the image, i used https://www.planetware.com/jordan/top-rated-things-to-do-in-amman-jo-1-2.htm
-let jordanPlace3 = new placeInfo("img/places/jordan-img3.jpg", "Jordan Natural History Museum", "a good place to identify some of Jordan’s most elusive species.", "https://www.lonelyplanet.com/jordan/jerash-and-the-north/irbid/attractions/jordan-natural-history-museum/a/poi-sig/1073967/361071");
+let jordanPlace3 = new placeInfo("assets/img/places/jordan-img3.jpg", "Jordan Natural History Museum", "a good place to identify some of Jordan’s most elusive species.", "https://www.lonelyplanet.com/jordan/jerash-and-the-north/irbid/attractions/jordan-natural-history-museum/a/poi-sig/1073967/361071");
 
 //Gets the elements by their ID and adding the constructor information to the HTML, with a string and the constructor object.
 document.getElementById("place-img1-1").src = lebanonPlace1.placeImage;
@@ -251,39 +251,39 @@ function foodInfo(foodImage, foodName, foodDescription, foodURL) {
 }
 
 //The description of the food and image was taken from https://www.simplyleb.com/recipe/manakeesh/
-let lebanonFood1 = new foodInfo("img/foods/lebanon-img4.jpg", "Manakeesh", "Manakeesh is a Lebanese flatbread topped with a variety of possibilities such as za’atar (zaatar), cheese, keshek etc.", "https://www.simplyleb.com/recipe/manakeesh/");
+let lebanonFood1 = new foodInfo("assets/img/foods/lebanon-img4.jpg", "Manakeesh", "Manakeesh is a Lebanese flatbread topped with a variety of possibilities such as za’atar (zaatar), cheese, keshek etc.", "https://www.simplyleb.com/recipe/manakeesh/");
 //The description of the food and image was taken from https://food52.com/recipes/66975-shish-barak-lebanese-lamb-dumplings-in-yogurt-sauce
-let lebanonFood2 = new foodInfo("img/foods/lebanon-img5.jpg", "Shish Barak", "very similar to manti, the lamb-filled dumplings eaten.", "https://food52.com/recipes/66975-shish-barak-lebanese-lamb-dumplings-in-yogurt-sauce");
+let lebanonFood2 = new foodInfo("assets/img/foods/lebanon-img5.jpg", "Shish Barak", "very similar to manti, the lamb-filled dumplings eaten.", "https://food52.com/recipes/66975-shish-barak-lebanese-lamb-dumplings-in-yogurt-sauce");
 //The description of the food and image was taken from https://www.arabamerica.com/recipe/bayad-maa-qawarma-eggs-preserved-meat/
-let lebanonFood3 = new foodInfo("img/foods/lebanon-img6.jpg", "Bayd Bi Qawarma", "Eggs and qawarma is perhaps the most common breakfast food among the villagers of Syria and Lebanon.", "https://www.arabamerica.com/recipe/bayad-maa-qawarma-eggs-preserved-meat/");
+let lebanonFood3 = new foodInfo("assets/img/foods/lebanon-img6.jpg", "Bayd Bi Qawarma", "Eggs and qawarma is perhaps the most common breakfast food among the villagers of Syria and Lebanon.", "https://www.arabamerica.com/recipe/bayad-maa-qawarma-eggs-preserved-meat/");
 
 //The description of the food and image was taken from https://www.marthastewart.com/1514852/balaleet
-let dubaiFood1 = new foodInfo("img/foods/dubai-img4.jpg", "Balaleet", "A dish of sugared vermicelli and eggs, balaleet is a popular lower Gulf breakfast item.", "https://www.marthastewart.com/1514852/balaleet");
+let dubaiFood1 = new foodInfo("assets/img/foods/dubai-img4.jpg", "Balaleet", "A dish of sugared vermicelli and eggs, balaleet is a popular lower Gulf breakfast item.", "https://www.marthastewart.com/1514852/balaleet");
 //The description of the food and image was taken from http://www.clubnoor.com/en/recipe/ramadan-time/lamb-machboos
-let dubaiFood2 = new foodInfo("img/foods/dubai-img5.jpg", "Lamb Machboos", "Machboos, or kabsa, is a popular dish in the Arabian Gulf.", "http://www.clubnoor.com/en/recipe/ramadan-time/lamb-machboos");
+let dubaiFood2 = new foodInfo("assets/img/foods/dubai-img5.jpg", "Lamb Machboos", "Machboos, or kabsa, is a popular dish in the Arabian Gulf.", "http://www.clubnoor.com/en/recipe/ramadan-time/lamb-machboos");
 //The description of the food and image was taken from http://www.clubnoor.com/en/recipe/arabian/luqaimat
-let dubaiFood3 = new foodInfo("img/foods/dubai-img6.jpg", "Luqaimat", "A finger licking snack or dessert which is a breeze to prepare, yet tastes so divine.", "http://www.clubnoor.com/en/recipe/arabian/luqaimat");
+let dubaiFood3 = new foodInfo("assets/img/foods/dubai-img6.jpg", "Luqaimat", "A finger licking snack or dessert which is a breeze to prepare, yet tastes so divine.", "http://www.clubnoor.com/en/recipe/arabian/luqaimat");
 
 //The description of the food and image was taken from https://www.bbcgoodfood.com/recipes/turkish-lamb-pilau
-let turkeyFood1 = new foodInfo("img/foods/turkey-img4.jpg", "Turkish lamb pilau", "A basmati rice one pot flavoured with cinnamon, mint and apricot, studded with tender lamb", "https://www.bbcgoodfood.com/recipes/turkish-lamb-pilau");
+let turkeyFood1 = new foodInfo("assets/img/foods/turkey-img4.jpg", "Turkish lamb pilau", "A basmati rice one pot flavoured with cinnamon, mint and apricot, studded with tender lamb", "https://www.bbcgoodfood.com/recipes/turkish-lamb-pilau");
 //The description of the food and image was taken from https://www.bbcgoodfood.com/recipes/imam-bayildi-bbq-lamb-tzatziki
-let turkeyFood2 = new foodInfo("img/foods/turkey-img5.jpg", "Imam bayildi with BBQ lamb & tzatziki", "There are hundreds of versions of this Turkish aubergine dish (It is authentically quite oily).", "https://www.bbcgoodfood.com/recipes/imam-bayildi-bbq-lamb-tzatziki");
+let turkeyFood2 = new foodInfo("assets/img/foods/turkey-img5.jpg", "Imam bayildi with BBQ lamb & tzatziki", "There are hundreds of versions of this Turkish aubergine dish (It is authentically quite oily).", "https://www.bbcgoodfood.com/recipes/imam-bayildi-bbq-lamb-tzatziki");
 //The description of the food and image was taken from https://www.bbcgoodfood.com/recipes/turkish-one-pan-eggs-peppers-menemen
-let turkeyFood3 = new foodInfo("img/foods/turkey-img6.jpg", "Turkish one-pan eggs & peppers (Menemen)", "This gutsy dish is genuine street food and a brilliant family dish for brunch, lunch or dinner.", "https://www.bbcgoodfood.com/recipes/turkish-one-pan-eggs-peppers-menemen");
+let turkeyFood3 = new foodInfo("assets/img/foods/turkey-img6.jpg", "Turkish one-pan eggs & peppers (Menemen)", "This gutsy dish is genuine street food and a brilliant family dish for brunch, lunch or dinner.", "https://www.bbcgoodfood.com/recipes/turkish-one-pan-eggs-peppers-menemen");
 
 //The description of the food and image was taken from https://www.curiouscuisiniere.com/kushari/
-let egyptFood1 = new foodInfo("img/foods/egypt-img4.jpg", "Kushari", "Kushari is a hearty combination of flavors and textures all topped off with spicy tomato sauce and fried onions.", "https://www.curiouscuisiniere.com/kushari/");
+let egyptFood1 = new foodInfo("assets/img/foods/egypt-img4.jpg", "Kushari", "Kushari is a hearty combination of flavors and textures all topped off with spicy tomato sauce and fried onions.", "https://www.curiouscuisiniere.com/kushari/");
 //The description of the food and image was taken from https://thematbakh.com/egyptian-mulukhiyah-with-roz-from-scratch/
-let egyptFood2 = new foodInfo("img/foods/egypt-img5.jpg", "Mulukhiyah", "One of the dishes that is ALWAYS on our dinner table when we visit Egypt.", "https://thematbakh.com/egyptian-mulukhiyah-with-roz-from-scratch/");
+let egyptFood2 = new foodInfo("assets/img/foods/egypt-img5.jpg", "Mulukhiyah", "One of the dishes that is ALWAYS on our dinner table when we visit Egypt.", "https://thematbakh.com/egyptian-mulukhiyah-with-roz-from-scratch/");
 //The description of the food and image was taken from https://www.themediterraneandish.com/hawawshi-recipe/
-let egyptFood3 = new foodInfo("img/foods/egypt-img6.jpg", "Hawawshi", "Think of it as Egypt's answer to a hamburger but on steroids!", "https://www.themediterraneandish.com/hawawshi-recipe/");
+let egyptFood3 = new foodInfo("assets/img/foods/egypt-img6.jpg", "Hawawshi", "Think of it as Egypt's answer to a hamburger but on steroids!", "https://www.themediterraneandish.com/hawawshi-recipe/");
 
 //The description of the food and image was taken from https://www.international-alert.org/news/mansaf
-let jordanFood1 = new foodInfo("img/foods/jordan-img4.jpg", "Mansaf", "The national Jordanian dish which is a big part of all celebrations and festivals.", "https://www.international-alert.org/news/mansaf");
+let jordanFood1 = new foodInfo("assets/img/foods/jordan-img4.jpg", "Mansaf", "The national Jordanian dish which is a big part of all celebrations and festivals.", "https://www.international-alert.org/news/mansaf");
 //The description of the food and image was taken from https://www.allrecipes.com/recipe/160087/upside-down-maqluba/
-let jordanFood2 = new foodInfo("img/foods/jordan-img5.jpg", "Maqluba", "It is inspired by the Arabic dish called 'Maqluba,' which translates to 'upside down.'", "https://www.allrecipes.com/recipe/160087/upside-down-maqluba/");
+let jordanFood2 = new foodInfo("assets/img/foods/jordan-img5.jpg", "Maqluba", "It is inspired by the Arabic dish called 'Maqluba,' which translates to 'upside down.'", "https://www.allrecipes.com/recipe/160087/upside-down-maqluba/");
 //The description of the food and image was taken from https://www.themediterraneandish.com/musakhan-sumac-chicken/
-let jordanFood3 = new foodInfo("img/foods/jordan-img6.jpg", "Musakhan", "This warm, savory Musakhan sumac chicken with caramelized onion flatbread will wow your taste buds in the best way possible!", "https://www.themediterraneandish.com/musakhan-sumac-chicken/");
+let jordanFood3 = new foodInfo("assets/img/foods/jordan-img6.jpg", "Musakhan", "This warm, savory Musakhan sumac chicken with caramelized onion flatbread will wow your taste buds in the best way possible!", "https://www.themediterraneandish.com/musakhan-sumac-chicken/");
 
 //Gets the elements by their ID and adding the constructor information to the HTML, with a string and the constructor object.
 document.getElementById("food-img1-1").src = lebanonFood1.foodImage;

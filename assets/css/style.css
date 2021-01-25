@@ -35,7 +35,7 @@ nav {
 	font-size: 20px;
 }
 
-/*------------------------------ Navigation Section*/
+/*------------------------------ Carousel Section*/
 
 #myCarousel img {
     height: 95vh;
@@ -148,6 +148,55 @@ nav {
 
 .contact-body {
     padding-bottom: 20px;
+}
+
+/*-----------------------------Country Section*/
+.country-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.country-description {
+    text-align: center;
+}
+
+.top-rated-container {
+    margin: 10px 70px;
+    padding: 10px;
+}
+
+#top-places,
+#top-food {
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.top-rated-place,
+.top-rated-food {
+    margin: 10px 0px;
+}
+
+.top-rated-places,
+.top-rated-foods {
+    margin-bottom: 20px;
+}
+
+.place-image,
+.food-image {
+    object-fit: cover;
+    height: 150px;
+}
+
+.more-link {
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.more-link:hover {
+    background-color: blue;
 }
 
 /*-----------------------------Footer Section*/
