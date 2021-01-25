@@ -165,3 +165,79 @@ let jordanPlace2 = new placeInfo("img/jordan-img2.jpg", "Rainbow Street", "Rainb
 //For the description, i used https://www.lonelyplanet.com/jordan/jerash-and-the-north/irbid/attractions/jordan-natural-history-museum/a/poi-sig/1073967/361071
 //For the image, i used https://www.planetware.com/jordan/top-rated-things-to-do-in-amman-jo-1-2.htm
 let jordanPlace3 = new placeInfo("img/jordan-img3.jpg", "Jordan Natural History Museum", "a good place to identify some of Jordan’s most elusive species.", "https://www.lonelyplanet.com/jordan/jerash-and-the-north/irbid/attractions/jordan-natural-history-museum/a/poi-sig/1073967/361071");
+
+//Gets the elements by their ID and adding the constructor information to the HTML, with a string and the constructor object.
+document.getElementById("place-img1-1").src = lebanonPlace1.placeImage;
+document.getElementById("place-name1-1").innerHTML = lebanonPlace1.placeName;
+document.getElementById("place-desc1-1").innerHTML = lebanonPlace1.placeDescription;
+document.getElementById("place-more1-1").href = lebanonPlace1.placeURL;
+
+document.getElementById("place-img2-1").src = lebanonPlace2.placeImage;
+document.getElementById("place-name2-1").innerHTML = lebanonPlace2.placeName;
+document.getElementById("place-desc2-1").innerHTML = lebanonPlace2.placeDescription;
+document.getElementById("place-more2-1").href = lebanonPlace2.placeURL;
+
+document.getElementById("place-img3-1").src = lebanonPlace3.placeImage;
+document.getElementById("place-name3-1").innerHTML = lebanonPlace3.placeName;
+document.getElementById("place-desc3-1").innerHTML = lebanonPlace3.placeDescription;
+document.getElementById("place-more3-1").href = lebanonPlace3.placeURL;
+
+document.getElementById("place-img1-2").src = dubaiPlace1.placeImage;
+document.getElementById("place-name1-2").innerHTML = dubaiPlace1.placeName;
+document.getElementById("place-desc1-2").innerHTML = dubaiPlace1.placeDescription;
+document.getElementById("place-more1-2").href = dubaiPlace1.placeURL;
+
+document.getElementById("place-img2-2").src = dubaiPlace2.placeImage;
+document.getElementById("place-name2-2").innerHTML = dubaiPlace2.placeName;
+document.getElementById("place-desc2-2").innerHTML = dubaiPlace2.placeDescription;
+document.getElementById("place-more2-2").href = dubaiPlace2.placeURL;
+
+document.getElementById("place-img3-2").src = dubaiPlace3.placeImage;
+document.getElementById("place-name3-2").innerHTML = dubaiPlace3.placeName;
+document.getElementById("place-desc3-2").innerHTML = dubaiPlace3.placeDescription;
+document.getElementById("place-more3-2").href = dubaiPlace3.placeURL;
+
+document.getElementById("place-img1-3").src = turkeyPlace1.placeImage;
+document.getElementById("place-name1-3").innerHTML = turkeyPlace1.placeName;
+document.getElementById("place-desc1-3").innerHTML = turkeyPlace1.placeDescription;
+document.getElementById("place-more1-3").href = turkeyPlace1.placeURL;
+
+document.getElementById("place-img2-3").src = turkeyPlace2.placeImage;
+document.getElementById("place-name2-3").innerHTML = turkeyPlace2.placeName;
+document.getElementById("place-desc2-3").innerHTML = turkeyPlace2.placeDescription;
+document.getElementById("place-more2-3").href = turkeyPlace2.placeURL;
+
+document.getElementById("place-img3-3").src = turkeyPlace3.placeImage;
+document.getElementById("place-name3-3").innerHTML = turkeyPlace3.placeName;
+document.getElementById("place-desc3-3").innerHTML = turkeyPlace3.placeDescription;
+document.getElementById("place-more3-3").href = turkeyPlace3.placeURL;
+
+document.getElementById("place-img1-4").src = egyptPlace1.placeImage;
+document.getElementById("place-name1-4").innerHTML = egyptPlace1.placeName;
+document.getElementById("place-desc1-4").innerHTML = egyptPlace1.placeDescription;
+document.getElementById("place-more1-4").href = egyptPlace1.placeURL;
+
+document.getElementById("place-img2-4").src = egyptPlace2.placeImage;
+document.getElementById("place-name2-4").innerHTML = egyptPlace2.placeName;
+document.getElementById("place-desc2-4").innerHTML = egyptPlace2.placeDescription;
+document.getElementById("place-more2-4").href = egyptPlace2.placeURL;
+
+document.getElementById("place-img3-4").src = egyptPlace3.placeImage;
+document.getElementById("place-name3-4").innerHTML = egyptPlace3.placeName;
+document.getElementById("place-desc3-4").innerHTML = egyptPlace3.placeDescription;
+document.getElementById("place-more3-4").href = egyptPlace3.placeURL;
+
+document.getElementById("place-img1-5").src = jordanPlace1.placeImage;
+document.getElementById("place-name1-5").innerHTML = jordanPlace1.placeName;
+document.getElementById("place-desc1-5").innerHTML = jordanPlace1.placeDescription;
+document.getElementById("place-more1-5").href = jordanPlace1.placeURL;
+
+document.getElementById("place-img2-5").src = jordanPlace2.placeImage;
+document.getElementById("place-name2-5").innerHTML = jordanPlace2.placeName;
+document.getElementById("place-desc2-5").innerHTML = jordanPlace2.placeDescription;
+document.getElementById("place-more2-5").href = jordanPlace2.placeURL;
+
+document.getElementById("place-img3-5").src = jordanPlace3.placeImage;
+document.getElementById("place-name3-5").innerHTML = jordanPlace3.placeName;
+document.getElementById("place-desc3-5").innerHTML = jordanPlace3.placeDescription;
+document.getElementById("place-more3-5").href = jordanPlace3.placeURL;
