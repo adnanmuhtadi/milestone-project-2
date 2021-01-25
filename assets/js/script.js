@@ -81,3 +81,25 @@ for (let i = 1; i <= topRated; i++) {
     subContainer.appendChild(cDescription);
     subContainer.appendChild(topRatedCon);
 }
+
+//A contructor function that defines the title and decription of the countries.
+function countryInfo(title, description) {
+    this.title = title;
+    this.description = description;
+}
+
+//Creating the constructor object with a string that is linked to the HTML.
+//The introduction was taken from https://www.lonelyplanet.com/lebanon/beirut as it explains Beirut in a couple of lines.
+let lebanon = new countryInfo("Lebanon", "If you’re looking for the real East-meets-West so talked about in the Middle East, you need look no further than Beirut. Fast-paced, fashion-conscious and overwhelmingly friendly, it's not a relaxing city to spend time in – it's too crowded, polluted and chaotic for that – but its energy, soul, diversity and intoxicating atmosphere make it a vital, addictive city.");
+
+//The introduction was taken from https://www.lonelyplanet.com/united-arab-emirates/dubai as it explains introduces the country.
+let dubai = new countryInfo("Dubai", "Dubai is a stirring alchemy of profound traditions and ambitious futuristic vision wrapped into starkly evocative desert splendour.");
+
+//The introduction was taken from https://www.lonelyplanet.com/turkey/istanbul as it explains introduces the turkey.
+let turkey = new countryInfo("Turkey", "This magical meeting place of East and West has more top-drawer attractions than it has minarets (and that's a lot).");
+
+//The introduction was taken from https://www.lonelyplanet.com/egypt/cairo as it explains Cairo
+let egypt = new countryInfo("Egypt", "Cairo is chaos at its most magnificent, infuriating and beautiful. From above, the distorted roar of the muezzins' call to prayer echoes out from duelling minarets. Below, car horns bellow tuneless symphonies amid avenues of faded 19th-century grandeur while donkey carts rattle down dusty lanes lined with colossal Fatimid and Mamluk monuments.");
+
+//The introduction was taken from https://www.lonelyplanet.com/jordan/amman as it explains Jordan
+let jordan = new countryInfo("Jordan", "As Middle Eastern cities go, Amman is a relative youth, being mostly a creation of the 20th century. But though it lacks the storied history and thrilling architectural tapestry of other regional capitals, there’s plenty here to encourage you to linger awhile before making for Petra, the Dead Sea or Wadi Rum. In fact, Amman is one of the easiest cities in which to enjoy the Middle East experience.");
