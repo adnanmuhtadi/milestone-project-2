@@ -6,7 +6,7 @@ for (let i = 1; i <= topRated; i++) {
     //The subcontainer is the ID for the counties for the drop down.
     let subContainer = document.createElement("div");
     subContainer.id = "country-container" + i;
-    subContainer.className="countryList";
+    subContainer.className = "countryList";
 
     //This defines the h1 element with the title to dynamically change.
     let cTitle = document.createElement("h1");
@@ -75,3 +75,9 @@ for (let i = 1; i <= topRated; i++) {
 </div>
 </div>`;
 
+    //Appends the elements above to the parent element which is definded.
+    mainContainer.appendChild(subContainer);
+    subContainer.appendChild(cTitle);
+    subContainer.appendChild(cDescription);
+    subContainer.appendChild(topRatedCon);
+}
