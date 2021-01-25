@@ -16,7 +16,7 @@ for (let i = 1; i <= topRated; i++) {
     let cDescription = document.createElement("div");
     cDescription.innerHTML = '<div class="country-description" id="cDescription' + i + '"></div>';
 
-    //Within this div element, inside the div element is all the html which would contruct my content.
+    //Within this div element, inside the div element is all the html which would construct my content.
     let topRatedCon = document.createElement("div");
     topRatedCon.innerHTML = `<div class="row top-rated-container">
 <div class="col-6 left-col">
