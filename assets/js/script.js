@@ -241,3 +241,122 @@ document.getElementById("place-img3-5").src = jordanPlace3.placeImage;
 document.getElementById("place-name3-5").innerHTML = jordanPlace3.placeName;
 document.getElementById("place-desc3-5").innerHTML = jordanPlace3.placeDescription;
 document.getElementById("place-more3-5").href = jordanPlace3.placeURL;
+
+//A constructor function that defines the image that will be used, the Name of the place, the description of the place and a place holder for the URL.
+function foodInfo(foodImage, foodName, foodDescription, foodURL) {
+    this.foodImage = foodImage;
+    this.foodName = foodName;
+    this.foodDescription = foodDescription;
+    this.foodURL = foodURL;
+}
+
+//The description of the food and image was taken from https://www.simplyleb.com/recipe/manakeesh/
+let lebanonFood1 = new foodInfo("img/foods/lebanon-img4.jpg", "Manakeesh", "Manakeesh is a Lebanese flatbread topped with a variety of possibilities such as za’atar (zaatar), cheese, keshek etc.", "https://www.simplyleb.com/recipe/manakeesh/");
+//The description of the food and image was taken from https://food52.com/recipes/66975-shish-barak-lebanese-lamb-dumplings-in-yogurt-sauce
+let lebanonFood2 = new foodInfo("img/foods/lebanon-img5.jpg", "Shish Barak", "very similar to manti, the lamb-filled dumplings eaten.", "https://food52.com/recipes/66975-shish-barak-lebanese-lamb-dumplings-in-yogurt-sauce");
+//The description of the food and image was taken from https://www.arabamerica.com/recipe/bayad-maa-qawarma-eggs-preserved-meat/
+let lebanonFood3 = new foodInfo("img/foods/lebanon-img6.jpg", "Bayd Bi Qawarma", "Eggs and qawarma is perhaps the most common breakfast food among the villagers of Syria and Lebanon.", "https://www.arabamerica.com/recipe/bayad-maa-qawarma-eggs-preserved-meat/");
+
+//The description of the food and image was taken from https://www.marthastewart.com/1514852/balaleet
+let dubaiFood1 = new foodInfo("img/foods/dubai-img4.jpg", "Balaleet", "A dish of sugared vermicelli and eggs, balaleet is a popular lower Gulf breakfast item.", "https://www.marthastewart.com/1514852/balaleet");
+//The description of the food and image was taken from http://www.clubnoor.com/en/recipe/ramadan-time/lamb-machboos
+let dubaiFood2 = new foodInfo("img/foods/dubai-img5.jpg", "Lamb Machboos", "Machboos, or kabsa, is a popular dish in the Arabian Gulf.", "http://www.clubnoor.com/en/recipe/ramadan-time/lamb-machboos");
+//The description of the food and image was taken from http://www.clubnoor.com/en/recipe/arabian/luqaimat
+let dubaiFood3 = new foodInfo("img/foods/dubai-img6.jpg", "Luqaimat", "A finger licking snack or dessert which is a breeze to prepare, yet tastes so divine.", "http://www.clubnoor.com/en/recipe/arabian/luqaimat");
+
+//The description of the food and image was taken from https://www.bbcgoodfood.com/recipes/turkish-lamb-pilau
+let turkeyFood1 = new foodInfo("img/foods/turkey-img4.jpg", "Turkish lamb pilau", "A basmati rice one pot flavoured with cinnamon, mint and apricot, studded with tender lamb", "https://www.bbcgoodfood.com/recipes/turkish-lamb-pilau");
+//The description of the food and image was taken from https://www.bbcgoodfood.com/recipes/imam-bayildi-bbq-lamb-tzatziki
+let turkeyFood2 = new foodInfo("img/foods/turkey-img5.jpg", "Imam bayildi with BBQ lamb & tzatziki", "There are hundreds of versions of this Turkish aubergine dish (It is authentically quite oily).", "https://www.bbcgoodfood.com/recipes/imam-bayildi-bbq-lamb-tzatziki");
+//The description of the food and image was taken from https://www.bbcgoodfood.com/recipes/turkish-one-pan-eggs-peppers-menemen
+let turkeyFood3 = new foodInfo("img/foods/turkey-img6.jpg", "Turkish one-pan eggs & peppers (Menemen)", "This gutsy dish is genuine street food and a brilliant family dish for brunch, lunch or dinner.", "https://www.bbcgoodfood.com/recipes/turkish-one-pan-eggs-peppers-menemen");
+
+//The description of the food and image was taken from https://www.curiouscuisiniere.com/kushari/
+let egyptFood1 = new foodInfo("img/foods/egypt-img4.jpg", "Kushari", "Kushari is a hearty combination of flavors and textures all topped off with spicy tomato sauce and fried onions.", "https://www.curiouscuisiniere.com/kushari/");
+//The description of the food and image was taken from https://thematbakh.com/egyptian-mulukhiyah-with-roz-from-scratch/
+let egyptFood2 = new foodInfo("img/foods/egypt-img5.jpg", "Mulukhiyah", "One of the dishes that is ALWAYS on our dinner table when we visit Egypt.", "https://thematbakh.com/egyptian-mulukhiyah-with-roz-from-scratch/");
+//The description of the food and image was taken from https://www.themediterraneandish.com/hawawshi-recipe/
+let egyptFood3 = new foodInfo("img/foods/egypt-img6.jpg", "Hawawshi", "Think of it as Egypt's answer to a hamburger but on steroids!", "https://www.themediterraneandish.com/hawawshi-recipe/");
+
+//The description of the food and image was taken from https://www.international-alert.org/news/mansaf
+let jordanFood1 = new foodInfo("img/foods/jordan-img4.jpg", "Mansaf", "The national Jordanian dish which is a big part of all celebrations and festivals.", "https://www.international-alert.org/news/mansaf");
+//The description of the food and image was taken from https://www.allrecipes.com/recipe/160087/upside-down-maqluba/
+let jordanFood2 = new foodInfo("img/foods/jordan-img5.jpg", "Maqluba", "It is inspired by the Arabic dish called 'Maqluba,' which translates to 'upside down.'", "https://www.allrecipes.com/recipe/160087/upside-down-maqluba/");
+//The description of the food and image was taken from https://www.themediterraneandish.com/musakhan-sumac-chicken/
+let jordanFood3 = new foodInfo("img/foods/jordan-img6.jpg", "Musakhan", "This warm, savory Musakhan sumac chicken with caramelized onion flatbread will wow your taste buds in the best way possible!", "https://www.themediterraneandish.com/musakhan-sumac-chicken/");
+
+//Gets the elements by their ID and adding the constructor information to the HTML, with a string and the constructor object.
+document.getElementById("food-img1-1").src = lebanonFood1.foodImage;
+document.getElementById("food-name1-1").innerHTML = lebanonFood1.foodName;
+document.getElementById("food-desc1-1").innerHTML = lebanonFood1.foodDescription;
+document.getElementById("food-more1-1").href = lebanonFood1.foodURL;
+
+document.getElementById("food-img2-1").src = lebanonFood2.foodImage;
+document.getElementById("food-name2-1").innerHTML = lebanonFood2.foodName;
+document.getElementById("food-desc2-1").innerHTML = lebanonFood2.foodDescription;
+document.getElementById("food-more2-1").href = lebanonFood2.foodURL;
+
+document.getElementById("food-img3-1").src = lebanonFood3.foodImage;
+document.getElementById("food-name3-1").innerHTML = lebanonFood3.foodName;
+document.getElementById("food-desc3-1").innerHTML = lebanonFood3.foodDescription;
+document.getElementById("food-more3-1").href = lebanonFood3.foodURL;
+
+document.getElementById("food-img1-2").src = dubaiFood1.foodImage;
+document.getElementById("food-name1-2").innerHTML = dubaiFood1.foodName;
+document.getElementById("food-desc1-2").innerHTML = dubaiFood1.foodDescription;
+document.getElementById("food-more1-2").href = dubaiFood1.foodURL;
+
+document.getElementById("food-img2-2").src = dubaiFood2.foodImage;
+document.getElementById("food-name2-2").innerHTML = dubaiFood2.foodName;
+document.getElementById("food-desc2-2").innerHTML = dubaiFood2.foodDescription;
+document.getElementById("food-more2-2").href = dubaiFood2.foodURL;
+
+document.getElementById("food-img3-2").src = dubaiFood3.foodImage;
+document.getElementById("food-name3-2").innerHTML = dubaiFood3.foodName;
+document.getElementById("food-desc3-2").innerHTML = dubaiFood3.foodDescription;
+document.getElementById("food-more3-2").href = dubaiFood3.foodURL;
+
+document.getElementById("food-img1-3").src = turkeyFood1.foodImage;
+document.getElementById("food-name1-3").innerHTML = turkeyFood1.foodName;
+document.getElementById("food-desc1-3").innerHTML = turkeyFood1.foodDescription;
+document.getElementById("food-more1-3").href = turkeyFood1.foodURL;
+
+document.getElementById("food-img2-3").src = turkeyFood2.foodImage;
+document.getElementById("food-name2-3").innerHTML = turkeyFood2.foodName;
+document.getElementById("food-desc2-3").innerHTML = turkeyFood2.foodDescription;
+document.getElementById("food-more2-3").href = turkeyFood2.foodURL;
+
+document.getElementById("food-img3-3").src = turkeyFood3.foodImage;
+document.getElementById("food-name3-3").innerHTML = turkeyFood3.foodName;
+document.getElementById("food-desc3-3").innerHTML = turkeyFood3.foodDescription;
+document.getElementById("food-more3-3").href = turkeyFood3.foodURL;
+
+document.getElementById("food-img1-4").src = egyptFood1.foodImage;
+document.getElementById("food-name1-4").innerHTML = egyptFood1.foodName;
+document.getElementById("food-desc1-4").innerHTML = egyptFood1.foodDescription;
+document.getElementById("food-more1-4").href = egyptFood1.foodURL;
+
+document.getElementById("food-img2-4").src = egyptFood2.foodImage;
+document.getElementById("food-name2-4").innerHTML = egyptFood2.foodName;
+document.getElementById("food-desc2-4").innerHTML = egyptFood2.foodDescription;
+document.getElementById("food-more2-4").href = egyptFood2.foodURL;
+
+document.getElementById("food-img3-4").src = egyptFood3.foodImage;
+document.getElementById("food-name3-4").innerHTML = egyptFood3.foodName;
+document.getElementById("food-desc3-4").innerHTML = egyptFood3.foodDescription;
+document.getElementById("food-more3-4").href = egyptFood3.foodURL;
+
+document.getElementById("food-img1-5").src = jordanFood1.foodImage;
+document.getElementById("food-name1-5").innerHTML = jordanFood1.foodName;
+document.getElementById("food-desc1-5").innerHTML = jordanFood1.foodDescription;
+document.getElementById("food-more1-5").href = jordanFood1.foodURL;
+
+document.getElementById("food-img2-5").src = jordanFood2.foodImage;
+document.getElementById("food-name2-5").innerHTML = jordanFood2.foodName;
+document.getElementById("food-desc2-5").innerHTML = jordanFood2.foodDescription;
+document.getElementById("food-more2-5").href = jordanFood2.foodURL;
+
+document.getElementById("food-img3-5").src = jordanFood3.foodImage;
+document.getElementById("food-name3-5").innerHTML = jordanFood3.foodName;
+document.getElementById("food-desc3-5").innerHTML = jordanFood3.foodDescription;
+document.getElementById("food-more3-5").href = jordanFood3.foodURL;
