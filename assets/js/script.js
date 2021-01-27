@@ -368,3 +368,30 @@ document.getElementById("country-container3").style.display = "none";
 document.getElementById("country-container4").style.display = "none";
 document.getElementById("country-container5").style.display = "none";
 
+//This hides and shows the content for the selected value from the drop down option list. I used https://jsfiddle.net/arshadhussain/423mv/ to assist me with the creation of this code.
+$(document).ready(function () {
+    $("select").change(function () {
+        $("select option:selected").each(function () {
+            if ($(this).attr("value") == "country-container1") {
+                $(".countryList").hide();
+                $("#country-container1").show();
+            }
+            if ($(this).attr("value") == "country-container2") {
+                $(".countryList").hide();
+                $("#country-container2").show();
+            }
+            if ($(this).attr("value") == "country-container3") {
+                $(".countryList").hide();
+                $("#country-container3").show();
+            }
+            if ($(this).attr("value") == "country-container4") {
+                $(".countryList").hide();
+                $("#country-container4").show();
+            }
+            if ($(this).attr("value") == "country-container5") {
+                $(".countryList").hide();
+                $("#country-container5").show();
+            }
+        });
+    }).change();
+});
