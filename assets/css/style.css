@@ -21,7 +21,7 @@ nav {
 }
 
 .navbar-brand {
-    padding-right: 650px;
+    padding-right: 600px;
 }
 
 .navbar-main a {
@@ -239,7 +239,7 @@ nav {
 @media only screen and (max-width: 1024px) {
 
     .navbar-brand {
-        padding-right: 250px;
+        padding-right: 325px;
     }
 
     .card-img {
@@ -261,17 +261,16 @@ nav {
     .contact-heading {
         font-size: 20px;
     }
-    }
 }
 
 @media only screen and (max-width: 768px) {
 
     .navbar-brand {
-        padding-right: 40px;
+        padding-right: 80px;
     }
 
     #myCarousel img {
-        height: 70vh;
+        height: 80vh;
         width: 100%;
     }
 

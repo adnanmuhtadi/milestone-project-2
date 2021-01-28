@@ -117,6 +117,7 @@ it would only take 95% of vertical height due to the navigation bar taking 5% of
         </div>
     </header>
 
+   <!-- The drop down options that would be displayed which activate the value IDs -->
     <select id='myCountries'>
         <option value="select" selected="selected">Please select a Country!</option>
         <option value="country-container1">Lebanon</option>
@@ -133,6 +134,8 @@ it would only take 95% of vertical height due to the navigation bar taking 5% of
             <tbody id="results"></tbody>
         </table>
     </div>
+
+    <div id="map"></div>
 
     <footer>
         <div class="footer-section">
@@ -179,7 +182,12 @@ it would only take 95% of vertical height due to the navigation bar taking 5% of
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfhzet6KXKNT4YjmlmDDDaFisliUbjhQ8&callback=initMap&libraries=places&v=weekly" defer></script>
+
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/maps.js"></script>
     <script src="assets/js/sendEmail.js"></script>
 
 </body>
