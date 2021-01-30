@@ -5,7 +5,7 @@ for (let i = 1; i <= topRated; i++) {
 
     //The subcontainer is the ID for the counties for the drop down.
     let subContainer = document.createElement("div");
-    subContainer.id = "country-container" + i;
+    subContainer.id = "country_container" + i;
     subContainer.className = "countryList";
 
     //This defines the h1 element with the title to dynamically change.
@@ -362,35 +362,47 @@ document.getElementById("food-desc3-5").innerHTML = jordanFood3.foodDescription;
 document.getElementById("food-more3-5").href = jordanFood3.foodURL;
 
 //Hiding all the content so when the country is selected from the drop down, it will keep the others hidden but display the country that is chosen
-document.getElementById("country-container1").style.display = "none";
-document.getElementById("country-container2").style.display = "none";
-document.getElementById("country-container3").style.display = "none";
-document.getElementById("country-container4").style.display = "none";
-document.getElementById("country-container5").style.display = "none";
+document.getElementById("country_container1").style.display = "none";
+document.getElementById("country_container2").style.display = "none";
+document.getElementById("country_container3").style.display = "none";
+document.getElementById("country_container4").style.display = "none";
+document.getElementById("country_container5").style.display = "none";
+document.getElementById("middleEastMapResults").style.display = "none";
+document.getElementById("map").style.display = "none";
 
 //This hides and shows the content for the selected value from the drop down option list. I used https://jsfiddle.net/arshadhussain/423mv/ to assist me with the creation of this code.
 $(document).ready(function () {
     $("select").change(function () {
         $("select option:selected").each(function () {
-            if ($(this).attr("value") == "country-container1") {
+            if ($(this).attr("value") == "lb") {
                 $(".countryList").hide();
-                $("#country-container1").show();
+                $("#country_container1").show();
+                $("#middleEastMapResults").show();
+                $("#map").show();
             }
-            if ($(this).attr("value") == "country-container2") {
+            if ($(this).attr("value") == "ae") {
                 $(".countryList").hide();
-                $("#country-container2").show();
+                $("#country_container2").show();
+                $("#middleEastMapResults").show();
+                $("#map").show();
             }
-            if ($(this).attr("value") == "country-container3") {
+            if ($(this).attr("value") == "tr") {
                 $(".countryList").hide();
-                $("#country-container3").show();
+                $("#country_container3").show();
+                $("#middleEastMapResults").show();
+                $("#map").show();
             }
-            if ($(this).attr("value") == "country-container4") {
+            if ($(this).attr("value") == "eg") {
                 $(".countryList").hide();
-                $("#country-container4").show();
+                $("#country_container4").show();
+                $("#middleEastMapResults").show();
+                $("#map").show();
             }
-            if ($(this).attr("value") == "country-container5") {
+            if ($(this).attr("value") == "jo") {
                 $(".countryList").hide();
-                $("#country-container5").show();
+                $("#country_container5").show();
+                $("#middleEastMapResults").show();
+                $("#map").show();
             }
         });
     }).change();
