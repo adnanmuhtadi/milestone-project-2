@@ -63,7 +63,7 @@ nav {
 
 .description p {
     font-family: "Kalam", sans-serif;
-    margin: 40px 80px 80px;
+    margin: 40px 80px 2px;
     font-size: 20px;
     font-weight: 400;
 }
@@ -158,13 +158,22 @@ nav {
 }
 
 /*-----------------------------Country Section*/
+#myCountries{
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
 .country-title {
+    font-family: "Yatra One", sans-serif;
     text-align: center;
     font-size: 30px;
+    padding: 20px 0px;
 }
 
 .country-description {
+    font-family: "Kalam", sans-serif;
     text-align: center;
+    margin: 20px 60px;
 }
 
 .top-rated-container {
@@ -172,17 +181,35 @@ nav {
     padding: 10px;
 }
 
+.main-container {
+    background-color: #f9cda8;
+}
+
+/* the headers for each category*/
 #top-places,
 #top-food {
+    font-family: "Yatra One", sans-serif;
     text-align: center;
     letter-spacing: 3px;
     text-transform: uppercase;
     margin-bottom: 25px;
 }
 
+/* Styling for the for information within each place and cuisine */
+.place-info h4,
+.food-info h4{
+    font-family: "Yatra One", sans-serif;
+}
+
+.place-info p,
+.food-info p{
+    font-family: "Kalam", sans-serif;
+}
+
+/* Spacing between each places and cuisines */
 .top-rated-place,
 .top-rated-food {
-    margin: 10px 0px;
+    margin: 10px 0px 20px;
 }
 
 .top-rated-places,
@@ -190,20 +217,25 @@ nav {
     margin-bottom: 20px;
 }
 
+/* styling for the images for the top places and cuisines */
 .place-image,
 .food-image {
     object-fit: cover;
     height: 150px;
 }
 
-.more-link {
+.more-link{
     padding: 5px;
+    border: 2px solid #000000;
     border-radius: 5px;
-    border-style: solid;
+    background-color: #ef7b18;
+    text-decoration: none;
+    color: #000000;
 }
 
 .more-link:hover {
-    background-color: blue;
+    background-color: #006994;
+    color: #ffffff;
 }
 
 /*-----------------------------Footer Section*/

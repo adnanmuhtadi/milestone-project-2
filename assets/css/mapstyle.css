@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Yatra One:100,200,300,400,500,600,700|Kalam:100,200,300,400,500,600,700');
+
 /* Always set the map height explicitly to define the size of the div
 * element that contains the map. */
 #map {
-    height: 50%;
+    height: 60%;
+margin-left: auto;
+margin-right: auto;
+    text-align: center;
+    width: 95%;
 }
 
 /* Optional: Makes the sample page fill the window. */
@@ -16,14 +22,8 @@ table {
     font-size: 12px;
 }
 
-
-#map {
-    margin-top: 40px;
-    width: 440px;
-}
-
 #listing {
-    position: absolute;
+    clear:both;
     width: 200px;
     height: 470px;
     overflow: auto;
@@ -39,8 +39,40 @@ table {
     flex: 1 1 140px;
 }
 
+/*the title as well as the search field*/
+#city-search-field{
+    font-family: "Yatra One", sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*Styling for the search bar*/
 #city-location {
-    width: 100%;
+    width: 50%;
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+/*Stlying from the title to the city search*/
+.city-search {
+	text-align: center;
+}
+
+/*Reset button styling*/
+#reset-btn {
+	margin: 5px;
+    padding: 0px 10px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+/*The radio buttons for options*/
+.select-activity {
+    margin: 30px 0;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Kalam", sans-serif;
 }
 
 #country {
