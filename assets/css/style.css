@@ -304,6 +304,33 @@ nav {
     .contact-heading {
         font-size: 20px;
     }
+
+    .top-rated-container {
+        margin: 0;
+    }
+
+    #top-places,
+    #top-food {
+        font-size: 25px;
+    }
+
+    .place-info h4,
+    .food-info h4 {
+        font-size: 18px;
+    }
+
+    .place-image,
+    .food-image {
+        height: auto;
+    }
+
+
+    .place-info p,
+    .food-info p {
+        font-size: 16px;
+    }
+
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -356,6 +383,24 @@ nav {
 
     .btn-card {
         right: 100px;
+    }
+
+    #dropCountries {
+        margin: 20px 0;
+    }
+
+    .country-description {
+	    margin: 0;
+    }
+
+    .place-info,
+    .food-info {
+	text-align: center;
+    }
+
+    .place-info h4,
+    .food-info h4 {
+        margin-top: 10px;
     }
 
     .social-media h4,
