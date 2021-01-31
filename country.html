@@ -149,9 +149,11 @@ it would only take 95% of vertical height due to the navigation bar taking 5% of
                 <input id="city-location" placeholder="Please type in a city" type="text" required/>
             </div>
 
+            <!-- Reset button to reset the search of the map -->
             <input type="reset" onclick="resetCountries()" id="reset-btn">
         </div>
 
+        <!-- The radio buttons which would define the search the user is looking for -->
         <div class="col-12 row select-activity">
             <div class="col-4">
                 <input type="radio" id="tourist_attraction" name="attractions" value="tourist_attraction">
@@ -168,14 +170,17 @@ it would only take 95% of vertical height due to the navigation bar taking 5% of
         </div>
     </div>
 
+    <!-- Google maps placeholder -->
     <div id="map"></div>
 
+    <!-- The results from the Google Maps findings -->
     <div id="listing">
         <table id="resultsTable">
             <tbody id="results"></tbody>
         </table>
     </div>
 
+    <!-- The info window within Google Maps where the information about the place would be displayed -->
     <div style="display: none">
         <div id="places-info-window">
             <table>
