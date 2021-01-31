@@ -369,6 +369,7 @@ document.getElementById("country_container4").style.display = "none";
 document.getElementById("country_container5").style.display = "none";
 document.getElementById("middleEastMapResults").style.display = "none";
 document.getElementById("map").style.display = "none";
+document.getElementById("listing").style.display = "none";
 
 //This hides and shows the content for the selected value from the drop down option list. I used https://jsfiddle.net/arshadhussain/423mv/ to assist me with the creation of this code.
 $(document).ready(function () {
@@ -379,30 +380,35 @@ $(document).ready(function () {
                 $("#country_container1").show();
                 $("#middleEastMapResults").show();
                 $("#map").show();
+                $("#listing").show();
             }
             if ($(this).attr("value") == "ae") {
                 $(".countryList").hide();
                 $("#country_container2").show();
                 $("#middleEastMapResults").show();
                 $("#map").show();
+                $("#listing").show();
             }
             if ($(this).attr("value") == "tr") {
                 $(".countryList").hide();
                 $("#country_container3").show();
                 $("#middleEastMapResults").show();
                 $("#map").show();
+                $("#listing").show();
             }
             if ($(this).attr("value") == "eg") {
                 $(".countryList").hide();
                 $("#country_container4").show();
                 $("#middleEastMapResults").show();
                 $("#map").show();
+                $("#listing").show();
             }
             if ($(this).attr("value") == "jo") {
                 $(".countryList").hide();
                 $("#country_container5").show();
                 $("#middleEastMapResults").show();
                 $("#map").show();
+                $("#listing").show();
             }
         });
     }).change();

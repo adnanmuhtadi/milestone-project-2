@@ -117,76 +117,88 @@ it would only take 95% of vertical height due to the navigation bar taking 5% of
             </div>
         </div>
     </header>
+    <main>
+        <div class="description col-12">
+            <h1 class="homepage-title">Discover what the Middle East Has to show</h1>
+            <p>The Middle East holds some of the worlds most beauitful places to want to visit, with stories and history behind each place makes a person only wanting to know more. It also has some of the most incredible cusines that has been shared with the rest of the world and is well known.</p>
+            <!-- The drop down options that would be displayed which activate the value IDs -->
 
-   <!-- The drop down options that would be displayed which activate the value IDs -->
-    <select id='myCountries'>
-        <option value="default" selected="selected">Please select a Country!</option>
-        <option value="lb">Lebanon</option>
-        <option value="ae">Dubai</option>
-        <option value="tr">Turkey</option>
-        <option value="eg">Egypt</option>
-        <option value="jo">Jordan</option>
-    </select>
+            <p>To know more about a specific country,
+                <select id='myCountries'>
+                    <option value="default" selected="selected">Please select a Country!</option>
+                    <option value="lb">Lebanon</option>
+                    <option value="ae">Dubai</option>
+                    <option value="tr">Turkey</option>
+                    <option value="eg">Egypt</option>
+                    <option value="jo">Jordan</option>
+                </select>
+            </p>
+        </div>
 
-    <div class="container-fluid main-container"></div>
+        <div class="container-fluid main-container"></div>
+    </main>
 
     <div id="middleEastMapResults">
-       <div class="col-12 col-lg-6 city-search">
+        <div class="col-12 city-search">
 
-           <div id="city-search-field">
-               <input id="city-location" placeholder="Please type a city" type="text" />
-           </div>
+            <div id="city-search-field">
+                <h3>Type in a city you would like to discover!</h3>
+                <input id="city-location" placeholder="Please type in a city" type="text" />
+            </div>
 
-           <input type="reset" onclick="resetCountries()" id="reset-btn">
-       </div>
-
-       <div class="col-lg-6 select-activity">
-           <label for="tourist_attraction">Tourist Attraction</label>
-           <input type="radio" id="tourist_attraction" name="attractions" value="tourist_attraction">
-           <br>
-           <label for="restaurant">Restaurant</label>
-           <input type="radio" id="restaurant" name="attractions" value="restaurant">
-           <br>
-           <label for="lodging">lodging</label>
-           <input type="radio" id="lodging" name="attractions" value="lodging">
-           <br>
-       </div>
-    </div>
-
-        <div id="map"></div>
-
-        <div id="listing">
-            <table id="resultsTable">
-                <tbody id="results"></tbody>
-            </table>
+            <input type="reset" onclick="resetCountries()" id="reset-btn">
         </div>
 
-        <div style="display: none">
-            <div id="places-info-window">
-                <table>
-                    <tr id="iw-url-row" class="iw_table_row">
-                        <td id="iw-icon" class="iw_table_icon"></td>
-                        <td id="iw-url"></td>
-                    </tr>
-                    <tr id="iw-address-row" class="iw_table_row">
-                        <td class="iw_attribute_name">Address:</td>
-                        <td id="iw-address"></td>
-                    </tr>
-                    <tr id="iw-phone-row" class="iw_table_row">
-                        <td class="iw_attribute_name">Telephone:</td>
-                        <td id="iw-phone"></td>
-                    </tr>
-                    <tr id="iw-rating-row" class="iw_table_row">
-                        <td class="iw_attribute_name">Rating:</td>
-                        <td id="iw-rating"></td>
-                    </tr>
-                    <tr id="iw-website-row" class="iw_table_row">
-                        <td class="iw_attribute_name">Website:</td>
-                        <td id="iw-website"></td>
-                    </tr>
-                </table>
+        <div class="col-12 row select-activity">
+            <div class="col-4">
+                <input type="radio" id="tourist_attraction" name="attractions" value="tourist_attraction">
+                <label for="tourist_attraction">Tourist Attraction</label>
+            </div>
+            <div class="col-4">
+                <input type="radio" id="restaurant" name="attractions" value="restaurant">
+                <label for="restaurant">Restaurant</label>
+            </div>
+            <div class="col-4">
+                <input type="radio" id="lodging" name="attractions" value="lodging">
+            <label for="lodging">Accomodation</label>
             </div>
         </div>
+    </div>
+
+    <div id="map"></div>
+
+    <div id="listing">
+        <table id="resultsTable">
+            <tbody id="results"></tbody>
+        </table>
+    </div>
+
+    <div style="display: none">
+        <div id="places-info-window">
+            <table>
+                <tr id="iw-url-row" class="iw_table_row">
+                    <td id="iw-icon" class="iw_table_icon"></td>
+                    <td id="iw-url"></td>
+                </tr>
+                <tr id="iw-address-row" class="iw_table_row">
+                    <td class="iw_attribute_name">Address:</td>
+                    <td id="iw-address"></td>
+                </tr>
+                <tr id="iw-phone-row" class="iw_table_row">
+                    <td class="iw_attribute_name">Telephone:</td>
+                    <td id="iw-phone"></td>
+                </tr>
+                <tr id="iw-rating-row" class="iw_table_row">
+                    <td class="iw_attribute_name">Rating:</td>
+                    <td id="iw-rating"></td>
+                </tr>
+                <tr id="iw-website-row" class="iw_table_row">
+                    <td class="iw_attribute_name">Website:</td>
+                    <td id="iw-website"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
 
     <!-- Contact Me section as it is built within a modal feature. This has been utilised from bootstrap however modified to make it work for my needs.
 This is being called from the navigation bar. -->
@@ -232,6 +244,7 @@ This is being called from the navigation bar. -->
             </div>
         </div>
     </div>
+
 
     <footer>
         <div class="footer-section">
