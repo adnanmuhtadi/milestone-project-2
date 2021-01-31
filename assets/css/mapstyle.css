@@ -4,8 +4,8 @@
 * element that contains the map. */
 #map {
     height: 60%;
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     width: 95%;
 }
@@ -20,10 +20,11 @@ body {
 
 /* The results for what is being displayed map*/
 #listing {
-    clear:both;
+    clear: both;
     width: 95%;
     height: 470px;
-    margin: 30px auto;;
+    margin: 30px auto;
+    ;
     overflow: auto;
     left: 442px;
     top: 0px;
@@ -38,7 +39,7 @@ body {
 }
 
 /*the title as well as the search field*/
-#city-search-field{
+#city-search-field {
     font-family: "Yatra One", sans-serif;
     text-align: center;
     padding: 20px 0;
@@ -54,12 +55,12 @@ body {
 
 /*Stlying from the title to the city search*/
 .city-search {
-	text-align: center;
+    text-align: center;
 }
 
 /*Reset button styling*/
 #reset-btn {
-	margin: 5px;
+    margin: 5px;
     padding: 0px 10px;
     border: 2px solid #000000;
     border-radius: 10px;
@@ -91,8 +92,10 @@ body {
 
 /*the styling of the table where the results would show*/
 #resultsTable {
+    font-family: "Kalam", sans-serif;
     border-collapse: collapse;
-    width: 2400px;
+    width: 100%;
+    font-size: 20px;
 }
 
 #rating {

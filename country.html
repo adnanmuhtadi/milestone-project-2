@@ -118,11 +118,13 @@ it would only take 95% of vertical height due to the navigation bar taking 5% of
         </div>
     </header>
     <main>
+
+       <!-- The introduction to the section which would be looking now -->
         <div class="description col-12">
             <h1 class="homepage-title">Discover what the Middle East Has to show</h1>
             <p>The Middle East holds some of the worlds most beauitful places to want to visit, with stories and history behind each place makes a person only wanting to know more. It also has some of the most incredible cusines that has been shared with the rest of the world and is well known.</p>
-            <!-- The drop down options that would be displayed which activate the value IDs -->
 
+            <!-- The drop down options that would be displayed which activate the value IDs -->
             <p>To know more about a specific country,
                 <select id='myCountries'>
                     <option value="default" selected="selected">Please select a Country!</option>
@@ -135,15 +137,16 @@ it would only take 95% of vertical height due to the navigation bar taking 5% of
             </p>
         </div>
 
+        <!-- The information which would be populated when one of the drop downs are selected -->
         <div class="container-fluid main-container"></div>
     </main>
 
     <div id="middleEastMapResults">
+        <!-- The search of cities which is connected to the maps.js, it is needed to be  -->
         <div class="col-12 city-search">
-
             <div id="city-search-field">
                 <h3>Type in a city you would like to discover!</h3>
-                <input id="city-location" placeholder="Please type in a city" type="text" />
+                <input id="city-location" placeholder="Please type in a city" type="text" required/>
             </div>
 
             <input type="reset" onclick="resetCountries()" id="reset-btn">
