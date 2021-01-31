@@ -18,6 +18,7 @@ body {
     padding: 0;
 }
 
+/* The results for what is being displayed map*/
 #listing {
     clear:both;
     width: 95%;
@@ -82,14 +83,16 @@ body {
     margin: 4px;
 }
 
+/*the size of the icon once selected on of the places on the map*/
 .hotelIcon {
-    width: 24px;
+    width: 20px;
     height: 24px;
 }
 
+/*the styling of the table where the results would show*/
 #resultsTable {
     border-collapse: collapse;
-    width: 240px;
+    width: 2400px;
 }
 
 #rating {
