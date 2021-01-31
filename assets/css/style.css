@@ -403,6 +403,10 @@ nav {
         margin-top: 10px;
     }
 
+    .select-activity label{
+	    font-size: 18px;
+    }
+
     .social-media h4,
     .contact-us h4 {
         margin-top: 40px;
