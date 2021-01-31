@@ -124,7 +124,7 @@ nav {
     padding: 0 5px;
     position: absolute;
     color: black;
-    right: 125px;
+    right: 50%;
     bottom: 15px;
 }
 
@@ -275,3 +275,123 @@ nav {
     text-align: center;
 }
 
+@media only screen and (max-width: 1024px) {
+
+    .navbar-brand {
+        padding-right: 325px;
+    }
+
+    .card-img {
+        width: 250px;
+        height: 350px;
+    }
+
+    .flip-card {
+        width: 250px;
+        height: 350px;
+    }
+
+    .btn-card {
+        right: 80px;
+    }
+
+    .contact-title {
+        font-family: "Yatra One", sans-serif;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .contact-heading {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .navbar-brand {
+        padding-right: 80px;
+    }
+
+    #myCarousel img {
+        height: 80vh;
+        width: 100%;
+    }
+
+    .last-card {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #myCarousel img {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .homepage-title {
+        font-size: 30px;
+    }
+
+    .description p {
+        margin: 0;
+    }
+
+    .main-body {
+        margin: 0;
+    }
+
+    .card-img {
+        width: 300px;
+        height: 400px;
+    }
+
+    .flip-card {
+        width: 300px;
+        height: 400px;
+    }
+
+    .last-card {
+        display: initial;
+    }
+
+    .btn-card {
+        right: 100px;
+    }
+
+    .social-media h4,
+    .contact-us h4 {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .navbar-brand{
+        margin: 0;
+        padding: 0;
+    }
+
+    #myCarousel img {
+        height: 40vh;
+        width: 100%;
+    }
+
+    .homepage-title {
+        font-size: 25px;
+    }
+
+    .description p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .card-img {
+        width: 250px;
+        height: 350px;
+    }
+
+    .flip-card {
+        width: 250px;
+        height: 350px;
+    }
+}
