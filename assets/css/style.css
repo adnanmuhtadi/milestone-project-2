@@ -275,12 +275,14 @@ nav {
     text-align: center;
 }
 
+/*-----------------------------For screens with a max width of 1024px*/
 @media only screen and (max-width: 1024px) {
 
     .navbar-brand {
         padding-right: 325px;
     }
 
+    /*Flip card in the index.html*/
     .card-img {
         width: 250px;
         height: 350px;
@@ -295,6 +297,7 @@ nav {
         right: 80px;
     }
 
+    /*Modal contact me section*/
     .contact-title {
         font-family: "Yatra One", sans-serif;
         text-align: center;
@@ -305,6 +308,7 @@ nav {
         font-size: 20px;
     }
 
+    /*country section within country.html*/
     .top-rated-container {
         margin: 0;
     }
@@ -329,32 +333,36 @@ nav {
     .food-info p {
         font-size: 16px;
     }
-
-
 }
 
+/*-----------------------------For screens with a max width of 768px*/
 @media only screen and (max-width: 768px) {
 
     .navbar-brand {
         padding-right: 80px;
     }
 
+    /*Height of the carousel as the screen got smaller*/
     #myCarousel img {
         height: 80vh;
         width: 100%;
     }
 
+    /*Hid the last card due to the fact i have 9 cards displayed*/
     .last-card {
         display: none;
     }
 }
 
+/*-----------------------------For screens with a max width of 425px*/
 @media only screen and (max-width: 425px) {
+    /*Header images for the carousel*/
     #myCarousel img {
         height: 50vh;
         width: 100%;
     }
 
+    /*Main body section*/
     .homepage-title {
         font-size: 30px;
     }
@@ -367,6 +375,7 @@ nav {
         margin: 0;
     }
 
+    /*Flip card section*/
     .card-img {
         width: 300px;
         height: 400px;
@@ -377,6 +386,7 @@ nav {
         height: 400px;
     }
 
+    /*Re-displayed the last image as the images are under each other*/
     .last-card {
         display: initial;
     }
@@ -385,6 +395,7 @@ nav {
         right: 100px;
     }
 
+    /*made space for the ID Element*/
     #dropCountries {
         margin: 20px 0;
     }
@@ -407,13 +418,16 @@ nav {
 	    font-size: 18px;
     }
 
+    /*footer*/
     .social-media h4,
     .contact-us h4 {
         margin-top: 40px;
     }
 }
 
+/*-----------------------------For screens with a max width of 375px*/
 @media only screen and (max-width: 375px) {
+    /*Top part of the site*/
     .navbar-brand{
         margin: 0;
         padding: 0;
@@ -433,6 +447,7 @@ nav {
     }
 }
 
+/*-----------------------------For screens with a max width of 320px*/
 @media only screen and (max-width: 320px) {
     .card-img {
         width: 250px;
