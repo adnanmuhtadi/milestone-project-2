@@ -164,7 +164,7 @@ The intended type of users which this site would be targeted for are individuals
 
 ## Testing
 
-Testing was taken place during my build of the site. I was utilising Brackets plugin 'Live Preview' to visually see what my website looks like with every change that is made. I was also utilising Chrome Dev Tools to assist with changes when code was not working as planned. Within Chrome Dev Tools, I was also utilising the responsive views to see the development for the responsive sizes.
+Testing was taken place during my build of the site. I was utilising Brackets plugin 'Live Preview' to visually see what my website looks like with every change that is made. I was also utilising Chrome Dev Tools to assist with changes when code was not working as planned. Within Chrome Dev Tools, I was also utilising the responsive views to see the development for the responsive sizes. To test the JS that i was using, i would be using Chrome Dev Tools and choosing Console to make sure everything was running smoothly.
 
 In this section, I would be testing the User Stories taken from the User Experience Section (UX), testing the functionality and usability, testing the responsive views as well as browser testing.
 
@@ -177,12 +177,12 @@ On code completion, i ensured my code was validated with no snytax errors. I use
 Page | Initial Errors | Resolved Errors | Error Notes
 ------------ | ------------- | ------------- | -------------
 index.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/validation/with-errors/Showing%20results%20for%20uploaded%20file%20index.html%20-%20Nu%20Html%20Checker.pdf) | [Resolved Errors]() |
-country.html| [Initial Errors]() | [Resolved Errors]() |
+country.html| [Initial Errors]() | [Resolved Errors]() | The 'type' attribute is being used with in the script.
 maps.js| [Initial Errors]() | [Resolved Errors]() |
 script.js| [Initial Errors]() | [Resolved Errors]() |
 sendEmail.js| [Initial Errors]() | [Resolved Errors]() |
-style.css| No Errors Found | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/validation/without-errors/W3C%20CSS%20Validator%20results%20for%20style.css%20(CSS%20level%203%20%2B%20SVG).pdf) | N/a
-mapstyle.css|  | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/validation/without-errors/W3C%20CSS%20Validator%20results%20for%20mapstyle.css%20(CSS%20level%203%20%2B%20SVG) | N/A
+style.css| No Errors Found | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/validation/without-errors/W3C%20CSS%20Validator%20results%20for%20style.css%20(CSS%20level%203%20%2B%20SVG).pdf) | N/A
+mapstyle.css| No Errors Found | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/validation/without-errors/W3C%20CSS%20Validator%20results%20for%20mapstyle.css%20(CSS%20level%203%20%2B%20SVG).pdf) | N/A
 
 ### Further Testing
 
