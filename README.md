@@ -176,7 +176,7 @@ On code completion, i ensured my code was validated with no snytax errors. I use
 
 Page | Initial Errors | Resolved Errors | Error Notes
 ------------ | ------------- | ------------- | -------------
-index.html| [Initial Errors]() | [Resolved Errors]() |
+index.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/validation/with%20errors/Showing%20results%20for%20uploaded%20file%20index.html%20-%20Nu%20Html%20Checker.pdf) | [Resolved Errors]() |
 country.html| [Initial Errors]() | [Resolved Errors]() |
 maps.js| [Initial Errors]() | [Resolved Errors]() |
 script.js| [Initial Errors]() | [Resolved Errors]() |
