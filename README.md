@@ -72,6 +72,8 @@ The intended type of users which this site would be targeted for are individuals
 
 ## Features
 
+The features that will be utilised in this project will be as follows:
+
 ### Existing Features
 
 #### Site Features
@@ -193,7 +195,28 @@ mapstyle.css| No Errors Found | [Resolved Errors](https://github.com/adnanmuhtad
 
 ## Deployment
 
+The project was deployed to Github Pages using the following method:
+
+1.  Log into Github and found the [Project Repository](https://github.com/adnanmuhtadi/milestone-project-2)
+1.  At the top of the Repository, i clicked the "[Settings](https://github.com/adnanmuhtadi/milestone-project-2/settings)" option on the menu.
+1.  I scrolled down the page until i found "Github Pages" section.
+1.  Under the "Source" section, a drop-down option with the result of "None" is visible. I clicked on the drop-down option and selected "Master Brand".
+1.  The page would automatically refresh itself to the top of the page.
+1.  I scrolled down to 'Github Pages' again and found a published link which is my deployed site URL.
+
 ### Making a Clone
+
+To make a clone, I had to get the SSH key from the repository which allowed me to clone the repository to my local hard drive.
+
+#### Method 1: (mostly used)
+
+Within brackets (Editing tool), I was able to download a plugin which enabled me to connect brackets to my GitHub repository. Whenever code was created and saved, I was given the option to commit and make notes on the upload. Once completed, I was able to push the changes to GitHub.
+
+<img src="documentation/images/brackets-commit.JPG">
+
+#### Method 2: Github Desktop
+
+The alternative method which I used when I first started the project was [Github Desktop](https://desktop.github.com/). I was able to connect my Github repository and push my files through that method. I eventually stopped as the plugin within my code editor did the same job. This enabled me to have one less application to have running while developing.
 
 ## Credits
 
