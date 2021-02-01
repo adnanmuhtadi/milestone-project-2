@@ -76,15 +76,20 @@ The intended type of users which this site would be targeted for are individuals
 
 #### Site Features
 
-- ...
+- Responsive on devices sized 1024px, 768px, 425px, 375px and 320px.
+- Allows the user to know the navigated hyperlinks, by having hoover over feature within the hyperlinks.
 
 #### Navigation Bar
 
-- ...
+- All links within the navigation bar would take the user to its representable page.
+- The layout of them would change on a mobile device with a hamburger icon.
+- Active pages would be visible as the links would be in bold and underlined.
+- All link on the navigation bar has a hover-over effect.
 
 #### Footer
 
-- ...
+- Quick links would take you different pages of the website.
+- Clickable social media icons which are connected to my personal social media homepages.
 
 #### Carousel
 
@@ -102,7 +107,7 @@ The intended type of users which this site would be targeted for are individuals
 
 - ...
 
-#### Contact Us Page
+#### Contact Us Modal
 
 - ...
 
@@ -159,9 +164,25 @@ The intended type of users which this site would be targeted for are individuals
 
 ## Testing
 
+Testing was taken place during my build of the site. I was utilising Brackets plugin 'Live Preview' to visually see what my website looks like with every change that is made. I was also utilising Chrome Dev Tools to assist with changes when code was not working as planned. Within Chrome Dev Tools, I was also utilising the responsive views to see the development for the responsive sizes.
+
+In this section, I would be testing the User Stories taken from the User Experience Section (UX), testing the functionality and usability, testing the responsive views as well as browser testing.
+
 ### Validation
 
+On code completion, i ensured my code was validated with no snytax errors. I used [W3C Markup Validator](https://validator.w3.org/) for HTML5 and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) for CSS3 to ensure my code is W3C Compliant.
+
 #### Results
+
+Page | Initial Errors | Resolved Errors | Error Notes
+------------ | ------------- | ------------- | -------------
+index.html| [Initial Errors]() | [Resolved Errors]() |
+country.html| [Initial Errors]() | [Resolved Errors]() |
+maps.js| [Initial Errors]() | [Resolved Errors]() |
+script.js| [Initial Errors]() | [Resolved Errors]() |
+sendEmail.js| [Initial Errors]() | [Resolved Errors]() |
+style.css| [Initial Errors]() | [Resolved Errors]() |
+mapstyle.css| [Initial Errors]() | [Resolved Errors]() |
 
 ### Further Testing
 
