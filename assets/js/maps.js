@@ -1,3 +1,14 @@
+/*
+I used https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch#maps_places_autocomplete_hotelsearch-javascript
+to assist with most of the code, utilising the notes that google has
+provided i was able to modify the code how i need it, such as selected
+countries, default locations, as well if statements to assist me in search
+not just hotels (default filter that google has provided).
+*/
+
+/*This example uses the autocomplete feature of the Google Places API.
+It allows the user to find all lodging, resturants and tourist attractions in a given place, within a given
+country. It then displays markers for all the selected filter returned.*/
 let map;
 let places;
 let infoWindow;
@@ -9,9 +20,14 @@ let countryRestrict = {
 let MARKER_PATH =
     "https://developers.google.com/maps/documentation/javascript/images/marker_green";
 const hostnameRegexp = new RegExp("^https?://.+?/");
+
+//Chosen countries and their selected coordinates
 let countries = {
     default: {
-        center: { lat: 0, lng: 0 },
+        center: {
+            lat: 0,
+            lng: 0
+        },
         zoom: 2,
     },
     lb: {
@@ -51,6 +67,7 @@ let countries = {
     },
 };
 
+/*Features within the map it self which would allow you add zoom controls map types etc*/
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
         zoom: countries["default"].zoom,
@@ -61,6 +78,7 @@ function initMap() {
         streetViewControl: false,
     });
 
+    //Restrict the search to the default country, and to place type "cities".
     infoWindow = new google.maps.InfoWindow({
         content: document.getElementById("places-info-window"),
     });
@@ -76,18 +94,18 @@ function initMap() {
     autocomplete.addListener("place_changed", getPlacesInfo);
 
     mapDragSearch();
-
     document.getElementById('tourist_attraction').addEventListener('change', getPlacesInfo);
     document.getElementById('restaurant').addEventListener('change', getPlacesInfo);
     document.getElementById('lodging').addEventListener('change', getPlacesInfo);
-
-
 
     document
         .getElementById("myCountries")
         .addEventListener("change", setAutocompleteCountry);
 }
 
+/*
+When the user selects a city, and checks one of the filters, it will zoom into the map displaying what has been searched. The user can select one of the 3 choices, Tourist Attractions, Resturants and accomodation
+*/
 function getPlacesInfo() {
     if ($("#tourist_attraction").is(':checked')) {
         let place = autocomplete.getPlace();
@@ -120,10 +138,9 @@ function getPlacesInfo() {
             $('#city-location').attr("placeholder", "Please type a city or town");
         }
     }
+}
 
-    }
-
-
+//when moving the map to a different map manually, it will reset the search and search in the area that is currently on the screen
 function mapDragSearch() {
     map.addListener("center_changed", function () {
         map.addListener("dragend", function () {
@@ -141,6 +158,7 @@ function mapDragSearch() {
     });
 }
 
+//Search for tourist_attractions in the selected city within the viewport of the map
 function searchAttraction() {
     let search = {
         bounds: map.getBounds(),
@@ -151,14 +169,20 @@ function searchAttraction() {
             clearResults();
             clearMarkers();
 
+            // Create a marker for each attraction found, and
+            // assign a letter of the alphabetic to each marker icon.
             for (let i = 0; i < results.length; i++) {
                 let markerLetter = String.fromCharCode("A".charCodeAt(0) + (i % 26));
                 let markerIcon = MARKER_PATH + markerLetter + ".png";
+
+                // Use marker animation to drop the icons incrementally on the map.
                 markers[i] = new google.maps.Marker({
                     position: results[i].geometry.location,
                     animation: google.maps.Animation.DROP,
                     icon: markerIcon,
                 });
+
+                // If the user clicks a tourist_attraction marker, show the details of that place in an info window
                 markers[i].placeResult = results[i];
                 google.maps.event.addListener(markers[i], "click", showInfoWindow);
                 setTimeout(dropMarker(i), i * 100);
@@ -168,6 +192,7 @@ function searchAttraction() {
     });
 }
 
+//Search for resturants in the selected city within the viewport of the map
 function searchRestaurant() {
     let search = {
         bounds: map.getBounds(),
@@ -178,14 +203,20 @@ function searchRestaurant() {
             clearResults();
             clearMarkers();
 
+            // Create a marker for each resturant found, and
+            // assign a letter of the alphabetic to each marker icon.
             for (let i = 0; i < results.length; i++) {
                 let markerLetter = String.fromCharCode("A".charCodeAt(0) + (i % 26));
                 let markerIcon = MARKER_PATH + markerLetter + ".png";
+
+                // Use marker animation to drop the icons incrementally on the map.
                 markers[i] = new google.maps.Marker({
                     position: results[i].geometry.location,
                     animation: google.maps.Animation.DROP,
                     icon: markerIcon,
                 });
+
+                // If the user clicks a resturant marker, show the details of that place in an info window
                 markers[i].placeResult = results[i];
                 google.maps.event.addListener(markers[i], "click", showInfoWindow);
                 setTimeout(dropMarker(i), i * 100);
@@ -195,6 +226,7 @@ function searchRestaurant() {
     });
 }
 
+//Search for lodging in the selected city within the viewport of the map
 function searchLodging() {
     let search = {
         bounds: map.getBounds(),
@@ -205,14 +237,20 @@ function searchLodging() {
             clearResults();
             clearMarkers();
 
+            // Create a marker for each lodging found, and
+            // assign a letter of the alphabetic to each marker icon.
             for (let i = 0; i < results.length; i++) {
                 let markerLetter = String.fromCharCode("A".charCodeAt(0) + (i % 26));
                 let markerIcon = MARKER_PATH + markerLetter + ".png";
+
+                // Use marker animation to drop the icons incrementally on the map.
                 markers[i] = new google.maps.Marker({
                     position: results[i].geometry.location,
                     animation: google.maps.Animation.DROP,
                     icon: markerIcon,
                 });
+
+                // If the user clicks a lodging marker, show the details of that place in an info window
                 markers[i].placeResult = results[i];
                 google.maps.event.addListener(markers[i], "click", showInfoWindow);
                 setTimeout(dropMarker(i), i * 100);
@@ -222,17 +260,24 @@ function searchLodging() {
     });
 }
 
-
-
+// Set the country restriction based on user input, also centers and zoomz the map on the given country.
+// The restrictions are taken from 'myCountries' dropdown value.
 function setAutocompleteCountry() {
     const country = document.getElementById("myCountries").value;
 
     if (country == "default") {
-        autocomplete.setComponentRestrictions({ country: [] });
-        map.setCenter({ lat: 15, lng: 0 });
+        autocomplete.setComponentRestrictions({
+            country: []
+        });
+        map.setCenter({
+            lat: 15,
+            lng: 0
+        });
         map.setZoom(2);
     } else {
-        autocomplete.setComponentRestrictions({ country: country });
+        autocomplete.setComponentRestrictions({
+            country: country
+        });
         map.setCenter(countries[country].center);
         map.setZoom(countries[country].zoom);
     }
@@ -264,31 +309,12 @@ function addResult(result, i) {
     results.appendChild(tr);
 }
 
-
-
-
-//This function will show the pop up info window in the google maps if the status is ok  and all the info is provided my the gmapPopUp fuction below.
-function showInfoWindow() {
-    let marker = this;
-    places.getDetails({
-        placeId: marker.placeResult.place_id
-    },
-                      (place, status) => {
-        if (status !== google.maps.places.PlacesServiceStatus.OK) {
-            return;
-        }
-        infoWindow.open(map, marker);
-        gmapPopUp(place);
-    }
-                     );
-}
-
-// Get the place details for a hotel. Show the information in an info window,
-// anchored on the marker for the hotel that the user selected.
+/* Get the place details for the chosen filter. Show the information in an info window, anchored on the marker for the filter that the user selected. */
 function showInfoWindow() {
     const marker = this;
-    places.getDetails(
-        { placeId: marker.placeResult.place_id },
+    places.getDetails({
+            placeId: marker.placeResult.place_id
+        },
         (place, status) => {
             if (status !== google.maps.places.PlacesServiceStatus.OK) {
                 return;
@@ -351,14 +377,14 @@ function buildIWContent(place) {
     }
 }
 
-
+//This drops the marker onto the map
 function dropMarker(i) {
     return function () {
         markers[i].setMap(map);
     };
 }
 
-//This function removes the markers from the map, i have used this for the reset button as well by calling the function.
+//This removes the marker from the map, it is also activated when you press the reset button
 function clearMarkers() {
     for (let i = 0; i < markers.length; i++) {
         if (markers[i]) {
@@ -368,7 +394,7 @@ function clearMarkers() {
     markers = [];
 }
 
-//This functions clears the results found, i have used this for the reset button as well by calling the function.
+//The function that clears the results
 function clearResults() {
     let results = document.getElementById("results");
     while (results.childNodes[0]) {
@@ -376,7 +402,7 @@ function clearResults() {
     }
 }
 
-//This function resets all the search input fields from all the steps divs and resets the map zoom back to default and a page refresh delay of one second, the reason for page refresh sometimes the api does not fully reset.
+//Clears the results, the search fields, the filters (radio buttons) and the map with a zoom out function which shows the world.
 function resetCountries() {
     clearResults();
     clearMarkers();
@@ -389,4 +415,3 @@ function resetCountries() {
         'country': []
     };
 }
-
