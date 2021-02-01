@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Yatra One:100,200,300,400,500,600,700|Kalam:100,200,300,400,500,600,700');
 
+/*The styling was mainly taken from the link below with my own customised format behind some features
+https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch#maps_places_autocomplete_hotelsearch-css
+The reason for the second .css file is because it simplify what i am looking at as well as the fact most of the CSS came from the above link.*/
+
 /* Always set the map height explicitly to define the size of the div
 * element that contains the map. */
 #map {
