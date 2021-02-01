@@ -95,27 +95,30 @@ The features that will be utilised in this project will be as follows:
 
 #### Carousel
 
-- ...
+- Images that autorotate clockwise with a small description at the bottom of the image.
+- A buttons on both sides of the images, it enables the user to change the picture on demand.
 
 #### Home Page
 
-- ...
+- Cards with images that flip when hovered over them.
+- A button which opens another tab when clicked on that is related to the card hovered over.
+- On a laptop screen and mobile screen, 9 cards are displayed on the screen. On a tablet screen, only 8 cards would be displayed.
 
 #### Country Page
 
-- ...
-
-#### Google Places API
-
-- ...
+- A drop down with the countries available would be selected. the information about the country would dynamically populate the web page.
+- Google Places API would appear at the bottom of the page and will display the places once a city is entered and a filter is chosen.
 
 #### Contact Us Modal
 
-- ...
+- A popup modal which would appear in the middle of the page.
+- A confirmation alert box appears in the top of the screen when the message has successfully sent.
 
 ### Features Left to Implement
 
-- ...
+- A button which would appear when the user begins to scroll down to automatically go back to the top.
+- The information to be pulled dynamically from a JSON file instead of a constructor.
+- Users to have more filters to choose from when searching the different types of places.
 
 ## Technologies Used
 
