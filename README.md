@@ -176,8 +176,8 @@ On code completion, i ensured my code was validated with no snytax errors. I use
 
 Page | Initial Errors | Resolved Errors | Error Notes
 ------------ | ------------- | ------------- | -------------
-index.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/validation/with-errors/Showing%20results%20for%20uploaded%20file%20index.html%20-%20Nu%20Html%20Checker.pdf) | [Resolved Errors]() |
-country.html| [Initial Errors]() | [Resolved Errors]() | The 'type' attribute is being used with in the script.
+index.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/validation/with-errors/Showing%20results%20for%20uploaded%20file%20index.html%20-%20Nu%20Html%20Checker.pdf) | [Resolved Errors]() | The element 'a' must not appear as a descendant of the 'button' element.
+country.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/validation/with-errors/Showing%20results%20for%20uploaded%20file%20country.html%20-%20Nu%20Html%20Checker.pdf) | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/validation/without-errors/Showing%20results%20for%20uploaded%20file%20country.html%20-%20Nu%20Html%20Checker.pdf) | The 'type' attribute is being used with in the script.
 maps.js| [Initial Errors]() | [Resolved Errors]() |
 script.js| [Initial Errors]() | [Resolved Errors]() |
 sendEmail.js| [Initial Errors]() | [Resolved Errors]() |
