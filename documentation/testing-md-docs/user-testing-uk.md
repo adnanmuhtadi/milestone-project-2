@@ -2,7 +2,7 @@
     1. Upon entering the site, images of the middle east would be displayed on the screen
     1. I have the option to click on the next image or wait for it to automaically slide onto the next one.
     
-    <img src="">
+    <img src="../images/image-of-places.png">
 
 - As a user, I want to know more about a picture when hovering over it so I know more about what I am looking at.
     1. Upon entering the site, I would scroll down to see further content of the site.
@@ -11,7 +11,7 @@
     1. The back of the card would tell me what I am looking at as well as a small description of what it is.
     1. A button which would take me to an external webpage to tell me more about what I hovered over.
     
-    <img src="">
+    <img src="../images/hover-over-images.png">
 
 - As a user, I want to be able to select a country from a drop-down so I can see what other countries I can see more information about.
     1. Upon entering the site, I would head towards the navigation bar.
@@ -19,7 +19,7 @@
     1. Upon arriving at the page I click on, I would scroll down to see a drop-down option.
     1. When clicked, I can see a list of countries I can choose from to know more about.
     
-    <img src="">
+    <img src="../images/drop-down-country-list.png">
     
 - As a uer, I want to see different attractions in the capital of the chosen country so I can see the options to choose from.
     1. 
