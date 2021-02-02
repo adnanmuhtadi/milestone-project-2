@@ -35,20 +35,20 @@
     1. When I click on a country, the page is populated with information about the country.
     1. When I click on the drop-down list again and select a different country, it would present me with information about the new country I selected.
     
-    <img src="">
+    <img src="../images/change-of-countries.png">
     
 - As a user, I want to be able to contact the site admin so I can ask questions that I would need further assistance on.
     1. Upon entering the site, I would head towards the navigation bar.
     1. Using the mouse, I would click on 'Contact Us'.
     1. A popup modal would appear for me to fill out and contact the side admin.
 
-    <img src="">
+    <img src="../images/contact-us.png">
 
 - As a user, I want to be able to click on the social media links to lead me to the "Advertising Agency" so I can follow their advertisement.
     1.  Upon entering the site, scroll down to the bottom of the webpage.
     1.  A footer is visible to me.
     1.  I would be able to see the social media icons under 'Social Media'.
     
-    <img src="">
+    <img src="../images/social-media.png">
     
 [Return to main README.md](https://github.com/adnanmuhtadi/milestone-project-2)
