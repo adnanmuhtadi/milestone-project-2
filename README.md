@@ -188,7 +188,9 @@ mapstyle.css| No Errors Found | [Resolved Errors](https://github.com/adnanmuhtad
 
 ### Further Testing
 
-#### User Stories Testing from User Experience (UX) Section
+#### User Stories Testing from User Experience (UX) Section - [View Results]()
+
+When carrying out the User Stories Testing, I placed my self as the user being provided instructions on how to achieve the goals that were identified. The intended type of users which this website is targeted for are travellers / individuals who are planning to go on holiday.. I displayed screenshots with the results of each finding to provide evidence of the stories being achieved successfully.
 
 #### Functionality and Usability Testing
 
