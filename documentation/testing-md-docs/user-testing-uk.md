@@ -29,7 +29,7 @@
 
 - As a user, I want to be able to select a different country and have the information change so I can see the new information without being transferred to another page.
     1. Upon entering the site, I would head towards the navigation bar.
-    1. Using the mouse, I would click on the 'Country'.
+    1. Using the mouse, I would click on 'Country'.
     1. Upon arriving at the page I click on, I would scroll down to see a drop-down option.
     1. When clicked, I can see a list of countries I can choose from to know more about.
     1. When I click on a country, the page is populated with information about the country.
@@ -38,7 +38,9 @@
     <img src="">
     
 - As a user, I want to be able to contact the site admin so I can ask questions that I would need further assistance on.
-    1. 
+    1. Upon entering the site, I would head towards the navigation bar.
+    1. Using the mouse, I would click on 'Contact Us'.
+    1. A popup modal would appear for me to fill out and contact the side admin.
 
     <img src="">
 
