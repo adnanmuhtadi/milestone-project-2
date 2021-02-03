@@ -6,7 +6,7 @@ This interactive site is where I would be advertising some of the most beautiful
 
 This site would be utilising JavaScript from the Code Institute as well as using Google Places API. I will be using various technologies such as HTML5, CSS3, JavaScript, JQuery, Bootstrap, APIs (Google Places).  This project will be responsive and accessible to different size browsers and devices.
 
-<h2 align="center"><img src="../milestone-project-2/documentation/images/homepage.JPG"></h2>
+<h2 align="center"><img src="documentation/images/homepage.JPG">
 
 ## User Experience (UX)
 
