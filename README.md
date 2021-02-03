@@ -202,7 +202,7 @@ All tests which have been mentioned in the link above has been tested on the fol
 
 ### Known Issues
 
--
+- With the contact form, the results section of the google api will have a blank white placeholder till the results appear.
 
 ## Deployment
 
@@ -248,7 +248,7 @@ Utilising the code that was used taught from the Code Instute Lessons consisted 
 - [Contact Form](https://www.emailjs.com/)
     - Using emailJS service to send emails from the contact form
 - [Contact Form - Response Constructor](https://developer.mozilla.org/en-US/docs/Web/API/Response)
-    -
+    - To provide specfic messages and responses once the email has been sent.
 
 ### Media
 
@@ -273,5 +273,9 @@ The main souce i used for the images if from [Pixabay](https://pixabay.com/):
     - [Turkey - Turkish Coffee](https://pixabay.com/photos/coffee-pot-coffee-traditional-4506001/)
     - [Jordan - Temple Of Hercules](https://pixabay.com/photos/temple-of-hercules-historic-site-4331371/)
     - [Egypt - Egyption Pyramids](https://pixabay.com/photos/cairo-egypt-camel-egyptian-desert-1051378/)
+
+-Country Page
+    - Images for the places and cuisines that where used came from multiple of different sites however ontop of each image would have the code commented within [script.js](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/assets/js/script.js)
+    - [Google Places API](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch#maps_places_autocomplete_hotelsearch-javascript) -
 
 ### Acknowledgements
