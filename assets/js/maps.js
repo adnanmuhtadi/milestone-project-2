@@ -25,45 +25,45 @@ const hostnameRegexp = new RegExp("^https?://.+?/");
 let countries = {
     default: {
         center: {
-            lat: 0,
-            lng: 0
+            lat: 34.610235,
+            lng: 25.234609
         },
-        zoom: 2,
+        zoom: 3,
     },
     lb: {
         center: {
             lat: 33.89231046259173,
             lng: 35.49453087184063
         },
-        zoom: 12,
+        zoom: 8,
     },
     ae: {
         center: {
             lat: 25.12123680578581,
             lng: 55.19897185939658
         },
-        zoom: 9,
+        zoom: 8,
     },
     tr: {
         center: {
-            lat: 41.01084870068621,
-            lng: 28.9654373834255
+            lat: 39.359113,
+            lng: 34.905181
         },
-        zoom: 13,
+        zoom: 6,
     },
     eg: {
         center: {
-            lat: 30.049315710218142,
-            lng: 31.233671515561262
+            lat: 26.952501,
+            lng: 30.490249
         },
-        zoom: 13,
+        zoom: 6,
     },
     jo: {
         center: {
             lat: 31.954123555014338,
             lng: 35.915992265811
         },
-        zoom: 12,
+        zoom: 9,
     },
 };
 
@@ -412,7 +412,7 @@ function resetCountries() {
     $('#myCountries')[0].selectedIndex = 0;
     $('#city-location').val("");
     $('input[type=radio]').prop('checked', false);
-    map.setZoom(2);
+    map.setZoom(3);
     map.setCenter(countries["default"].center);
     map.componentRestrictions = {
         'country': []
