@@ -280,3 +280,5 @@ The main souce i used for the images if from [Pixabay](https://pixabay.com/):
     - Images for the places and cuisines that where used came from multiple of different sites however ontop of each image would have the code commented within [script.js](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/assets/js/script.js).
 
 ### Acknowledgements
+
+This
