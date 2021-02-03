@@ -104,7 +104,8 @@ function initMap() {
 }
 
 /*
-When the user selects a city, and checks one of the filters, it will zoom into the map displaying what has been searched. The user can select one of the 3 choices, Tourist Attractions, Resturants and accomodation
+When the user selects a city, and checks one of the filters, it will zoom into the map
+displaying what has been searched. The user can select one of the 3 choices, Tourist Attractions, Resturants and accomodation
 */
 function getPlacesInfo() {
     if ($("#tourist_attraction").is(':checked')) {
@@ -140,7 +141,8 @@ function getPlacesInfo() {
     }
 }
 
-//when moving the map to a different map manually, it will reset the search and search in the area that is currently on the screen
+//when moving the map to a different map manually, it will reset the search and search in the
+//area that is currently on the screen
 function mapDragSearch() {
     map.addListener("center_changed", function () {
         map.addListener("dragend", function () {
@@ -309,7 +311,8 @@ function addResult(result, i) {
     results.appendChild(tr);
 }
 
-/* Get the place details for the chosen filter. Show the information in an info window, anchored on the marker for the filter that the user selected. */
+/* Get the place details for the chosen filter. Show the information in an info window,
+anchored on the marker for the filter that the user selected. */
 function showInfoWindow() {
     const marker = this;
     places.getDetails({

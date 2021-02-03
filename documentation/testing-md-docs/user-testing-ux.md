@@ -21,11 +21,29 @@
     
     <img src="../images/drop-down-country-list.png">
     
-- As a uer, I want to see different attractions in the capital of the chosen country so I can see the options to choose from.
-    1. 
+- As a user, I want to see different attractions in the city of the chosen country so I can see the options to choose from.
+    1. Upon entering the site, I would head towards the navigation bar.
+    1. Using the mouse, I would click on 'Country'.
+    1. Upon arriving at the page I click on, I would scroll down to see a drop-down option.
+    1. When clicked, I can see a list of countries I can choose from to know more about.
+    1. When I click on a country, the page is populated with information about the country.
+    1. When I scroll down, I can see the recommended place to visit.
+    1. When I click on the 'Learn More!', it takes me to an external site.
+
+    <img src="../images/learn-more.png">
 
 - As a user, I want to click on an option that is presented to me within the Google Places API and have it appear on the marker within the map.
-    1.
+    1. Upon entering the site, I would head towards the navigation bar.
+    1. Using the mouse, I would click on 'Country'.
+    1. Upon arriving at the page I click on, I would scroll down to see a drop-down option.
+    1. When clicked, I can see a list of countries I can choose from to know more about.
+    1. When I click on a country, the page is populated with information about the country.
+    1. When I scroll down, I type in a city within the search field and select 'Tourist Attraction'
+    1. Google Maps zoomed into the city identifying the different tourist attractions within the area.
+    1. When I scroll down, I clicked on the name of one of the location.
+    1. The Google Places API, opened a popup within Google Maps with the details of that place on that marker.
+
+    <img src="../images/google-places.png">
 
 - As a user, I want to be able to select a different country and have the information change so I can see the new information without being transferred to another page.
     1. Upon entering the site, I would head towards the navigation bar.

@@ -6,7 +6,8 @@
 //Creating a variable to associate the button
 let btn = document.getElementById('send-modal-button');
 
-//This section of code listens to the events happening within the contact form and change the text inside the button from 'Send' to 'Sending...'
+//This section of code listens to the events happening within the contact form and change
+//the text inside the button from 'Send' to 'Sending...'
 document.getElementById('contactForm')
     .addEventListener('submit', function (event) {
     event.preventDefault();
@@ -18,7 +19,9 @@ document.getElementById('contactForm')
     let serviceID = 'personal-gmail';
     let templateID = 'middle_east';
 
-    //The two variables mentioned above are used within the template parameters. The template parameters are used in the email template that has been set up within EmailJS along with side my input fields of the contact form within the HTML file.
+    /* The two variables mentioned above are used within the template parameters. The template parameters
+    are used in the email template that has been set up within EmailJS along with side my input fields
+    of the contact form within the HTML file.*/
     emailjs.send(serviceID, templateID, {
         "from_fullname": this.from_fullname.value,
         "from_useremail": this.from_useremail.value,
@@ -26,13 +29,17 @@ document.getElementById('contactForm')
         "question_asked": this.question_asked.value,
     })
 
-    //The object which would contain the text which would be changed if successful as well as the message within the console log within the browser and the status in a text format as well as an alert box which would notify the user once the message has been sent.
+    /*The object which would contain the text which would be changed if successful as well as the message
+    within the console log within the browser and the status in a text format as well as an alert box which
+    would notify the user once the message has been sent. */
         .then((response) => {
         btn.textContent = 'Sent!';
         console.log("Message Sent!", response.statusText);
         alert('Message sent. Someone will reach out to you shortly.');
 
-    //The object which would contain the text which would be changed if unsuccessful as well as the message within the console log within the browser and the status in a text format as well as an alert box which would notify the user if the message was not sent.
+    /* The object which would contain the text which would be changed if unsuccessful as well as the message
+    within the console log within the browser and the status in a text format as well as an alert box which
+    would notify the user if the message was not sent. */
     }, (error) => {
         btn.textContent = 'Error!';
         console.log("Message did not send!", response.statusText);

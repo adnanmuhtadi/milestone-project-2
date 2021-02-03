@@ -33,7 +33,7 @@ The intended type of users which this site would be targeted for are individuals
 1. As a user, I want to be able to see images of the places in the middle east so I can see the beauty of the countries.
 2. As a user, I want to know more about a picture when hovering over it so I know more about what I am looking at.
 3. As a user, I want to be able to select a country from a drop-down so I can see what other countries I can see more information about.
-4. As a user, I want to see different attractions in the capital of the chosen country so I can see the options to choose from.
+4. As a user, I want to see different attractions in the city of the chosen country so I can see the options to choose from.
 5. As a user, I want to click on an option that is presented to me within the Google Places API and have it appear on the marker within the map.
 6. As a user, I want to be able to select a different country and have the information change so I can see the new information without being transferred to another page.
 7. As a user, I want to be able to contact the site admin so I can ask questions that I would need further assistance on.
@@ -188,15 +188,21 @@ mapstyle.css| No Errors Found | [Resolved Errors](https://github.com/adnanmuhtad
 
 ### Further Testing
 
-#### User Stories Testing from User Experience (UX) Section - [View Results](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/testing-md-docs/user-testing-uk.md)
+#### User Stories Testing from User Experience (UX) Section - [View Results](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/testing-md-docs/user-testing-ux.md)
 
 When carrying out the User Stories Testing, I placed my self as the user being provided instructions on how to achieve the goals that were identified. The intended type of users which this website is targeted for are travellers / individuals who are planning to go on holiday.. I displayed screenshots with the results of each finding to provide evidence of the stories being achieved successfully.
 
-#### Functionality and Usability Testing
+#### Functionality and Usability Testing - [View Results]()
+
+Testing all my functions and features within the site and ensuring that it is usable across different browsers and devices. I laid the results out in a table with each section defining the feature/function, a description of what I am testing as well as if it passes or fails.
 
 #### Browser and Responsive Testing
 
+All tests which have been mentioned in the link above has been tested on the following browsers: Chrome, Edge and Firefox. All features and functions worked as expected, including the addition of UX designs (excpet for the known issues mentioned below). The site was also tested on different size devices which consisted of a laptop 13 inch, a tablet as well as a mobile phone.
+
 ### Known Issues
+
+-
 
 ## Deployment
 
