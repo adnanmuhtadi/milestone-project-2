@@ -72,4 +72,4 @@ Card view layout (Phone view) | Layout to change on a phone device where the car
 Font | Displaying 'Poppins' as the font family | :heavy_check_mark: |
 
 
-[Return to main README.md](https://github.com/adnanmuhtadi/milestone-project-1/blob/master/README.md)
+[Return to main README.md](https://github.com/adnanmuhtadi/milestone-project-2)

@@ -193,7 +193,7 @@ mapstyle.css| No Errors Found | [Resolved Errors](https://github.com/adnanmuhtad
 
 When carrying out the User Stories Testing, I placed my self as the user being provided instructions on how to achieve the goals that were identified. The intended type of users which this website is targeted for are travellers / individuals who are planning to go on holiday.. I displayed screenshots with the results of each finding to provide evidence of the stories being achieved successfully.
 
-#### Functionality and Usability Testing - [View Results]()
+#### Functionality and Usability Testing - [View Results](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/testing-md-docs/features-function-testing.md)
 
 Testing all my functions and features within the site and ensuring that it is usable across different browsers and devices. I laid the results out in a table with each section defining the feature/function, a description of what I am testing as well as if it passes or fails.
 
