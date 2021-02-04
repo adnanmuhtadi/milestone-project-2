@@ -50,13 +50,17 @@ Font text | Text being displaying in 'Kalam' as the font family | :heavy_check_m
 
 Feature/Function | Description | Pass | Fail
 ------------ | ------------- | ------------- | -------------
-Header image (Web view only) | Cover the page from under the navigation bar  | :heavy_check_mark: |
-Button Scroll hover (Web view only) | A grey background with a white icon to be displayed when hovered over | :heavy_check_mark: |
-Button Scroll active (Web view only) | When clicked, to have the main content of the webpage displaying at the top of page | :heavy_check_mark: |
-'Click Here' CV link  | When clicked, a new tab would open the developers' CV in a PDF format | :heavy_check_mark: |
-Download CV | To download/save a copy of the CV from the browser | :heavy_check_mark: |
-Skills section not visible (Mobile view) | When in mobile view, Skills section would not be visible and the journey timeline would be centred in the middle | :heavy_check_mark: |
-Font | Displaying 'Poppins' as the font family | :heavy_check_mark: |
+Carousel header | Different images to rotate | :heavy_check_mark: |
+Carousel controls | To be able to manually change the images by clicking on the left and right arrows  | :heavy_check_mark: |
+Introduction text | To be displayed under the carousel images  | :heavy_check_mark: |
+'Select a country' button | A drop down to appear with a list of countries which would populate the web page  | :heavy_check_mark: |
+Auto-fill of information | Introduction of the country, top places and cusines with images and buttons, as well as a map to be visible | :heavy_check_mark: |
+'Learn More!' button | When clicked, it would direct you to another tab and into another website which would tell you more about the place/cuisine you have clicked on | :heavy_check_mark: |
+City search | Type in a city within that country as well selected a filter to show what you would like to see | :heavy_check_mark: |
+Attraction results | Markers would be placed on the map and a results table would be displayed under the Map | :heavy_check_mark: |
+Info popup | When a place is clicked within the results table, a popup would appear on the map with more details of the place | :heavy_check_mark: |
+Font labels | Labels being displayed in 'Yatra One' as the font family | :heavy_check_mark: |
+Font text | Text being displaying in 'Kalam' as the font family | :heavy_check_mark: |
 
 ## Contact Us Modal
 
