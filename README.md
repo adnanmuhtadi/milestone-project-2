@@ -204,6 +204,7 @@ All tests which have been mentioned in the link above has been tested on the fol
 ### Known Issues
 
 - With the contact form, the results section of the google api will have a blank white placeholder till the results appear.
+- With the Google Places API, after you have completed a city search and selected the type of filter you are looking for, the results appear at the bottom. The Issue is, when you click on one of the places within the results, it does not take you automatically to the map and show you where it is, you would have scroll back up to the map to see the location of the place you have clicked on.
 
 ## Deployment
 
@@ -281,4 +282,6 @@ The main souce i used for the images if from [Pixabay](https://pixabay.com/):
 
 ### Acknowledgements
 
-This
+I want to thank my mentor Aaron Sinnott who guided me in the right direction and his support. This project has allowed me to experience the powers of APIs. It enabled the developer to utilise information of others and display it in their style.
+
+The idea of the website came from how much I miss going on holidays, especially Middle East countries as covid has prevented that from happening. Using Google Maps all the time, and the knowledge which was taught from the Code Institute lessons. I came up with an idea to make a travel agent website which would inform users about the different places and cuisines in the Middle East.
