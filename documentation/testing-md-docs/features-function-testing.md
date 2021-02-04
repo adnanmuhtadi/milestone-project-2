@@ -68,7 +68,7 @@ Feature/Function | Description | Pass | Fail
 ------------ | ------------- | ------------- | -------------
 Visbile popup | When 'Contact Us' is clicked a popup would apper in the middle of the screen | :heavy_check_mark: |
 Required fields | If one of the fields do not get filled, you would not be able to send a message |  :heavy_check_mark: |
-Sent confirmation | When the message has been successfully sent, another popup would appear, informing you that the message has been successfully sent
+Sent confirmation | When the message has been successfully sent, another popup would appear, informing you that the message has been successfully sent | :heavy_check_mark: |
 Font labels | Labels being displayed in 'Yatra One' as the font family | :heavy_check_mark: |
 
 [Return to main README.md](https://github.com/adnanmuhtadi/milestone-project-2)

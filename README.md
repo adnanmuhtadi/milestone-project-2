@@ -62,10 +62,14 @@ The intended type of users which this site would be targeted for are individuals
     - Country Wireframe (Tablet) - [View PDF](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/country-wireframe-tablet.pdf) | [View Image](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/country-wireframe-tablet.png)
     - Country Wireframe (Mobile) - [View PDF](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/country-wireframe-mobile.pdf) | [View Image](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/country-wireframe-mobile.png)
 
+    The wireframes matche to what has been developed apart from the amount of filters in the google places as i reduced due to make more space on the page
+
     #### Contact Us
     - Contact Us Wireframe (Web Browser) - [View PDF](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/contact-wireframe-web-browser.pdf) | [View Image](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/contact-wireframe-web-browser.png)
     - Contact Us Wireframe (Tablet) - [View PDF](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/contact-wireframe-tablet.pdf) | [View Image](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/contact-wireframe-tablet.png)
     - Contact Us Wireframe (Mobile) - [View PDF](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/contact-wireframe-mobile.pdf) | [View Image](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/contact-wireframe-mobile.png)
+
+    The wireframes for the Contact Us do not match what i have developed due to the fact i wanted to change it to a pop modal as it allows the user to be able to use the functionality of contacting the site admin without losing where they are within the page. The way how it has been designed will be how i will be creating contact forms in the future as it makes the users journey more streamlined and user friendly.
 
     #### Master Wireframe
     - Master Wireframe - [View](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/wireframes/explore-the-middle-east.bmpr)
@@ -176,7 +180,7 @@ In this section, I would be testing the User Stories taken from the User Experie
 
 ### Validation
 
-On code completion, i ensured my code was validated with no snytax errors. I used [W3C Markup Validator](https://validator.w3.org/) for HTML5 and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) for CSS3 to ensure my code is W3C Compliant.
+On code completion, i ensured my code was validated with no snytax errors. I used [W3C Markup Validator](https://validator.w3.org/) for HTML5, [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) for CSS3 to ensure my code is W3C Compliant. I used [JSHint](https://jshint.com/) to helps to detect errors and potential problems in your JavaScript code.
 
 #### Results
 
@@ -186,6 +190,9 @@ index.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-2
 country.html| [Initial Errors](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/validation/with-errors/Showing%20results%20for%20uploaded%20file%20country.html%20-%20Nu%20Html%20Checker.pdf) | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/validation/without-errors/Showing%20results%20for%20uploaded%20file%20country.html%20-%20Nu%20Html%20Checker.pdf) | The 'type' attribute is being used with in the script.
 style.css| No Errors Found | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/validation/without-errors/W3C%20CSS%20Validator%20results%20for%20style.css%20(CSS%20level%203%20%2B%20SVG).pdf) | N/A
 mapstyle.css| No Errors Found | [Resolved Errors](https://github.com/adnanmuhtadi/milestone-project-2/blob/main/documentation/validation/without-errors/W3C%20CSS%20Validator%20results%20for%20mapstyle.css%20(CSS%20level%203%20%2B%20SVG).pdf) | N/A
+script.js | No Errors Found | [Resolved Errors]() | JSHint is using an old version of ES
+maps.js | No Errors Found | [Resolved Errors]() | JSHint is using an old version of ES
+sendEmail.js | No Errors Found | [Resolved Errors]() | JSHint is using an old version of ES
 
 ### Further Testing
 
@@ -203,7 +210,7 @@ All tests which have been mentioned in the link above has been tested on the fol
 
 ### Known Issues
 
-- With the contact form, the results section of the google api will have a blank white placeholder till the results appear.
+- With the Country page, the results section of the google api will have a blank white placeholder till the results appear.
 - With the Google Places API, after you have completed a city search and selected the type of filter you are looking for, the results appear at the bottom. The Issue is, when you click on one of the places within the results, it does not take you automatically to the map and show you where it is, you would have scroll back up to the map to see the location of the place you have clicked on.
 
 ## Deployment
