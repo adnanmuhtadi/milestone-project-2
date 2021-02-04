@@ -66,14 +66,9 @@ Font text | Text being displaying in 'Kalam' as the font family | :heavy_check_m
 
 Feature/Function | Description | Pass | Fail
 ------------ | ------------- | ------------- | -------------
-Header image (Web view only) | Cover the page from under the navigation bar  | :heavy_check_mark: |
-Button Scroll hover (Web view only) | A grey background with a white icon to be displayed when hovered over | :heavy_check_mark: |
-Button Scroll active (Web view only) | When clicked, to have the main content of the webpage displaying at the top of page | :heavy_check_mark: |
-'Visit Me!' button hover | When hovering over the 'Visit Me!' button, the box gets darker and the font gets bolder | :heavy_check_mark: |
-'Visit Me!' button click | By clicking on the 'Visit Me! button, it would open a new tab with the site it is representing | :heavy_check_mark: |
-Card view layout (Tablet view) | Layout to change on a tablet device where the card layout would change to be only 2 cards in a row | :heavy_check_mark: |
-Card view layout (Phone view) | Layout to change on a phone device where the card layout would change to be under each other | :heavy_check_mark: |
-Font | Displaying 'Poppins' as the font family | :heavy_check_mark: |
-
+Visbile popup | When 'Contact Us' is clicked a popup would apper in the middle of the screen | :heavy_check_mark: |
+Required fields | If one of the fields do not get filled, you would not be able to send a message |  :heavy_check_mark: |
+Sent confirmation | When the message has been successfully sent, another popup would appear, informing you that the message has been successfully sent
+Font labels | Labels being displayed in 'Yatra One' as the font family | :heavy_check_mark: |
 
 [Return to main README.md](https://github.com/adnanmuhtadi/milestone-project-2)
